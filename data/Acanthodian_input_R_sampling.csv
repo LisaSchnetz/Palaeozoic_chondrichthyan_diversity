@@ -1,0 +1,691 @@
+GENUS;SPECIES;ORDER;FAMILY;DUPLICATE;PERIOD;EARLIEST;MAX_DATE;LATEST;MIN_DATE;MID POINT;LAZARUS;COLLECTION;FORMATION;CONTINENT 1;CONTINENT 2;CONTINENT 3;CONTINENT 4;CONTINENT 5;HEMISPHERE;BA_0;BA_1;BA_2;BA_3;BA_4;BA_5;BA_6;SCALE_ONLY;FINSPINE_ONLY;TOOTH_ONLY
+Acanthodes;beecheri;Acanthodiiformes;Acanthodidae;N;Carboniferous;Moscovian;315,2;Moscovian;307;311,1;N;Pit 11, Peabody Coal Company;Carbondale;North America;X;X;X;;N;0;1;0;0;0;0;0;N;N;NA
+Acanthodes;beecheri;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Moscovian;315,2;Moscovian;307;311,1;N;NW 1/4 NE 1/4 Sec. 6;Carbondale;North America;X;X;X;;N;0;1;0;0;0;0;0;N;N;NA
+Acanthodes;bridgei;Acanthodiiformes;Acanthodidae;N;Carboniferous;Gzhelian;303,7;Gzhelian;298,9;301,3;N;Greenwood county;Topeka limestone;North America;X;X;X;;N;0;1;0;0;0;0;0;N;N;NA
+Acanthodes;bridgei;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Gzhelian;303,7;Gzhelian;298,9;301,3;N;Hamilton;Topeka limestone;North America;X;X;X;;N;0;1;0;0;0;0;0;N;N;NA
+Acanthodes;bronni;Acanthodiiformes;Acanthodidae;N;C - P;Gzhelian;303,7;Asselian;293,52;298,61;N;Berschweiler;Meisenheim;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodes;confusus;Acanthodiiformes;Acanthodidae;N;C - P;Gzhelian;303,7;Asselian;293,52;298,61;N;Lebach;Meisenheim;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodes;confusus;Acanthodiiformes;Acanthodidae;Y;C - P;Gzhelian;303,7;Asselian;293,52;298,61;N;Kreimbach-Kaulbach;Meisenheim;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodes;confusus;Acanthodiiformes;Acanthodidae;Y;C - P;Gzhelian;303,7;Asselian;293,52;298,61;N;Rudnik v Krkonosich;Vrchlabí;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodes;gracilis;Acanthodiiformes;Acanthodidae;N;Permian;Asselian;298,9;Asselian;293,52;296,21;N;Wolbromow;Rotliegend;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodes;gracilis;Acanthodiiformes;Acanthodidae;Y;Permian;Asselian;298,9;Asselian;293,52;296,21;N;Mecinka;Rotliegend;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodes;gracilis;Acanthodiiformes;Acanthodidae;Y;Permian;Asselian;298,9;Asselian;293,52;296,21;N;Olešnice;Rotliegend;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodes;gracilis;Acanthodiiformes;Acanthodidae;Y;Permian;Asselian;298,9;Asselian;293,52;296,21;N;Rudnik v Krkonosich;Vrchlabí;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodes;gracilis;Acanthodiiformes;Acanthodidae;Y;Permian;Asselian;298,9;Asselian;293,52;296,21;N;Hermanovy Sejfy;Vrchlabí;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodes;kinneyi;Acanthodiiformes;Acanthodidae;N;Carboniferous;Kasimovian;307;Gzhelian;298,9;302,95;N;Kinney Brick Company Quarry;Wild Cow;North America;X;X;X;;N;0;1;0;0;0;0;0;N;N;NA
+Acanthodes;lopatini;Acanthodiiformes;Acanthodidae;N;Carboniferous;Tournaisian;358,9;Tournaisian;346,7;352,8;N;Medvedskoe village;Lower Os'kin;Asia;X;X;X;;N;0;1;1;1;0;0;0;N;N;NA
+Acanthodes;lundi;Acanthodiiformes;Acanthodidae;N;Carboniferous;Visean;346,7;Bashkirian;315,2;330,95;N;Heath A Quarry;Heath;North America;X;X;X;;N;0;0;1;1;1;0;0;N;N;NA
+Acanthodes;lundi;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Visean;346,7;Bashkirian;315,2;330,95;N;Supercrop Quarry;Heath;North America;X;X;X;;N;0;0;1;1;1;0;0;N;N;NA
+Acanthodes;lundi;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Visean;346,7;Bashkirian;315,2;330,95;N;Vacation Crop;Heath;North America;X;X;X;;N;0;0;1;1;1;0;0;N;N;NA
+Acanthodes;marshi;Acanthodiiformes;Acanthodidae;N;Carboniferous;Moscovian;315,2;Moscovian;307;311,1;N;Pit 11, Peabody Coal Company;Carbondale;North America;X;X;X;;N;0;1;0;0;0;0;0;N;N;NA
+Acanthodes;nitidus;Acanthodiiformes;Acanthodidae;N;Carboniferous;Visean;346,7;Visean;330,9;338,8;N;Glencartholm;Calciferous Sandstones;Europe;X;X;X;;N;0;1;0;0;0;0;0;N;N;NA
+Acanthodes;nitidus;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Visean;346,7;Visean;330,9;338,8;N;Eskdale;Calciferous Sandstones;Europe;X;X;X;;N;0;1;0;0;0;0;0;N;N;NA
+Acanthodes;ovensi;Acanthodiiformes;Acanthodidae;N;Carboniferous;Tournaisian;358,9;Tournaisian;346,7;352,8;N;Crooked Burn;Cementstones Group;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodes;sp.;Acanthodiiformes;Acanthodidae;N;Carboniferous;Tournaisian;358,9;Visean;330,9;344,9;Y;Eskdale;Calciferous Sandstones;Europe;Africa;Australia and Oceania;X;;N/S;1;1;0;0;0;0;0;N;N;NA
+Acanthodes;sp.;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Tournaisian;359,9;Visean;330,9;344,9;Y;Strydomsvlei;;Australia and Oceania;X;X;X;;N/S;1;1;0;0;0;0;0;N;N;NA
+Acanthodes;sp.;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Tournaisian;360,9;Visean;330,9;344,9;Y;Mansfield;;Africa;X;X;X;;N/S;1;1;0;0;0;0;0;N;N;NA
+Acanthodes;sp.;Acanthodiiformes;Acanthodidae;N;C - P;Gzhelian;303,7;Asselian;293,52;298,61;Y;Lebach;Meisenheim;Europe;X;X;X;;N;0;1;0;0;0;0;0;N;N;NA
+Acanthodes;sulcatus;Acanthodiiformes;Acanthodidae;N;Carboniferous;Visean;346,7;Visean;330,9;338,8;N;Pentland Oil Works;Dunnet Shale;Europe;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Acanthodes;sulcatus;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Visean;346,7;Visean;330,9;338,8;N;Wardie B;Wardie Shales;Europe;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Acanthodes;sulcatus;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Visean;346,7;Visean;330,9;338,8;N;Straiton;Dunnet Shale;Europe;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Acanthodes ;wardi;Acanthodiiformes;Acanthodidae;N;Carboniferous;Bashkirian;323,2;Moscovian;307;315,1;N;Longton;Deep Mine Ironstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodes ;wardi;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Bashkirian;323,2;Moscovian;307;315,1;N;Trawden;Soapstone Bed;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodopsis;egertoni;Acanthodiiformes;Acanthodidae;N;Carboniferous;Moscovian;315,2;Moscovian;307;311,1;N;Newcastle;Coal Measures;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodopsis;microdon;Acanthodiiformes;Acanthodidae;N;Carboniferous;Bashkirian;323,2;Moscovian;307;315,1;N;Foxfield Colliery;Coal Measures;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodopsis;microdon;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Bashkirian;323,2;Moscovian;307;315,1;N;Cheadle coalfield;Woodhead Coal;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodopsis;sp.;Acanthodiiformes;Acanthodidae;N;Carboniferous;Serpukhovian;330,9;Moscovian;307;318,95;N;Loanhead;;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodopsis;sp.;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Serpukhovian;330,9;Moscovian;307;318,95;N;Newsham;Coal Measures;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodopsis;sp.;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Serpukhovian;330,9;Moscovian;307;318,95;N;Fenton;Knowles Ironstone Shale;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Acanthodopsis;wardi;Acanthodiiformes;Acanthodidae;N;Carboniferous;Serpukhovian;330,9;Moscovian;307;318,95;N;Longton;Deep Mine Ironstone;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Acanthodopsis;wardi;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Serpukhovian;330,9;Moscovian;307;318,95;N;Smeaton;Coal Measures;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Acanthodopsis;wardi;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Serpukhovian;330,9;Moscovian;307;318,95;N;Newsham;Coal Measures;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Acanthodopsis;wardi;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Serpukhovian;330,9;Moscovian;307;318,95;N;Newcastle;Coal Measures;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Acanthodopsis;wardi;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Serpukhovian;330,9;Moscovian;307;318,95;N;Newarthill;Virtuewell Coal Seam;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Acanthodopsis;wardi;Acanthodiiformes;Acanthodidae;Y;Carboniferous;Serpukhovian;330,9;Moscovian;307;318,95;N;Low Moor;Better Bed Coal;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Pseudacanthodes;pinnatus;Acanthodiiformes;Acanthodidae;N;Carboniferous;Moscovian;315,2;Moscovian;307;311,1;N;Tremosna;Gaskohle;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Traquairichthys;pygmaeus;Acanthodiiformes;Acanthodidae;N;Carboniferous;Moscovian;315,2;Moscovian;307;311,1;N;Humboldt-Schacht;Gaskohle;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Utahacanthus;guntheri;Acanthodiiformes;Acanthodidae;N;Carboniferous;Bashkirian;323,2;Bashkirian;315,2;317,2;N;Lehi;Manning Canyon;North America;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Cheiracanthus;brevicostatus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Karksi outcrop;;Europe;X;X;X;;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Cheiracanthus;costellatus?;Acanthodiiformes;Cheiracanthidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Campbellton;Atholville beds;North America;X;X;X;;N;0;1;0;0;0;0;0;N;N;NA
+Cheiracanthus;crassus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Eividovichi-328 borehole;Osveya Beds of the Western Dvina Formation;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Cheiracanthus;crassus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Vilchitsy-1 borehole;;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Cheiracanthus;crassus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Lyozno-1 borehole;;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Cheiracanthus;crassus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Kuptcheli-325 borehole;;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Cheiracanthus;flabellicostatus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Siverskii;Aruküla Regional Stage;Europe;X;X;X;;N;1;0;0;0;0;0;0;Y;N;NA
+Cheiracanthus;flabellicostatus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Zaitsevo;Aruküla Regional Stage;Europe;X;X;X;;N;1;0;0;0;0;0;0;Y;N;NA
+Cheiracanthus;gibbosus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Braslav-8 borehole;Vitebsk horizon;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Cheiracanthus;gibbosus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Ludza-15 borehole;Rezekne horizon;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Cheiracanthus;gibbosus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Cherikov-1 borehole;Vitebsk horizon;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Cheiracanthus;grandispinus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Achanarras;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Cheiracanthus;intricatus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Estheriahaugen;Tordalen;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Cheiracanthus;intricatus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Dvoriki-2 borehole;Kernave;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Cheiracanthus;intricatus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Saravai-427 borehole;Kernave;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Cheiracanthus;krucheki;Acanthodiiformes;Cheiracanthidae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Cherikov-1 borehole;Vitebsk horizon;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Cheiracanthus;latus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Tynet Burn;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Cheiracanthus;latus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Den of Findon;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Cheiracanthus;longicostatus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Estonia;Narova Stage;Europe;X;X;X;;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Cheiracanthus;microlepidotus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Lethen Bar;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Cheiracanthus;microlepidotus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Banffshire;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Cheiracanthus;murchisoni;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Den of Findon;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Cheiracanthus;murchisoni;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Cromarty;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Cheiracanthus;murchisoni;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Tynet Burn;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Cheiracanthus;murchisoni;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Achanarras;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Cheiracanthus;peachi;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Button Geo;Mey Flagstone;Europe;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Cheiracanthus;peachi;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Sacquoy Head;Mey Flagstone;Europe;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Cheiracanthus;peachi;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;East Mey;Mey Flagstone;Europe;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Cheiracanthus;peachi;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Orsha-2 borehole;Kostiukovichy;Europe;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Cheiracanthus;sp.;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Den of Findon;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Cheiracanthus;sp.;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Stromness;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Cheiracanthus;sp.;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Gordon Castle;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Cheiracanthus;splendens;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Estonia;Narova Stage;Europe;X;X;X;;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Cheiracanthus;talimae;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Pusne-286 borehole;Kernave;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Cheiracanthus;talimae;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Daugavpils-42 borehole;;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Ginkgolepis;tenericostatus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Karksi outcrop;Burtnieki;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Ginkgolepis;tenericostatus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Novinka quarry;Burtnieki;Europe;X;X;X;;N;1;0;0;0;0;0;0;Y;N;NA
+Homalacanthus;concinnus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Scaumenac Bay;Escuminac;North America;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Homalacanthus;concinnus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Escuminac Bay;Escuminac;North America;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Homalacanthus;concinnus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Miguasha;Escuminac;North America;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Markacanthus;costulatus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Orsha-2 borehole;Kostiukovichy;Europe;X;X;X;;N;1;1;1;0;0;0;0;Y;N;NA
+Markacanthus;costulatus;Acanthodiiformes;Cheiracanthidae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Saravai-427 borehole;Kernave;Europe;X;X;X;;N;1;1;1;0;0;0;0;Y;N;NA
+Markacanthus;parallelus;Acanthodiiformes;Cheiracanthidae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Braslav-7 borehole;Vitebsk horizon;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Protogonacanthus;juergeni;Acanthodiiformes;Cheiracanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;An der Loh quarry;Upper Plattenkalk;Europe;X;X;X;;N;0;1;1;0;0;0;0;N;N;NA
+Halimacanthodes;ahlbergi;Acanthodiiformes;Howittacanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Stromatoporoid Camp;Gogo;Australia and Oceania;X;X;X;;S;0;0;0;1;1;1;0;N;N;NA
+Howittacanthus;kentoni;Acanthodiiformes;Howittacanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Mt. Howitt Spur quarry;;Australia and Oceania;X;X;X;;S;1;0;0;0;0;0;0;N;N;NA
+Lodeacanthus;gaujicus;Acanthodiiformes;Mescanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Lode clay quarry;Lode;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Melanoacanthus;minutus;Acanthodiiformes;Mesacanthidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Standard Oil Company locality AR.25.58;Bear Rock;North America;X;X;X;;N;0;1;0;0;0;0;0;N;N;NA
+Mesacanthus;mitchelli;Acanthodiiformes;Mesacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Turin Hill;Dundee Flagstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Mesacanthus;mitchelli;Acanthodiiformes;Mesacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Forfar;Dundee Flagstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Mesacanthus;mitchelli;Acanthodiiformes;Mesacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Angus;Dundee Flagstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Mesacanthus;mitchelli;Acanthodiiformes;Mesacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tillywhandland quarry;Dundee Flagstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Mesacanthus;peachi;Acanthodiiformes;Mesacanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Orkney;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Mesacanthus;peachi;Acanthodiiformes;Mesacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Achanarras;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Mesacanthus;pusillus;Acanthodiiformes;Mesacanthidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Tynet Burn;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Mesacanthus;sp.;Acanthodiiformes;Mesacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;;N;0;0;0;1;0;0;0;N;N;NA
+Mesacanthus;semistriatus;Acanthodiiformes;Mesacanthidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Campbellton;Atholville beds;North America;X;X;X;;N;0;1;0;0;0;0;0;N;N;NA
+Promesacanthus;eppleri;Acanthodiiformes;Mesacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;;N;0;0;0;1;0;0;0;N;N;NA
+Triazeugacanthus;affinis;Acanthodiiformes;Mesacanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Escuminac Bay;Escuminac;North America;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Triazeugacanthus;affinis;Acanthodiiformes;Mesacanthidae;Y;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Miguasha;Escuminac;North America;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Triazeugacanthus;affinis;Acanthodiiformes;Mesacanthidae;Y;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;lot 192;Escuminac;North America;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Triazeugacanthus;affinis;Acanthodiiformes;Mesacanthidae;Y;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;lot 193B;Escuminac;North America;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Culmacanthus;antarctica;Diplacanthiformes;Culmacanthidae;N;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Mount Crean;Aztec Siltstone;Antarctica;X;X;X;;S;1;0;0;0;0;0;0;N;N;NA
+Culmacanthus;pambulensis;Diplacanthiformes;Culmacanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Pambula;Boyd Volcanic Complex;Australia and Oceania;X;X;X;;S;1;0;0;0;0;0;0;N;N;NA
+Culmacanthus;sp.;Diplacanthiformes;Culmacanthidae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Goalen Head;Bunga Beds;Australia and Oceania;X;X;X;;S;1;0;0;0;0;0;0;N;N;NA
+Culmacanthus;stewarti;Diplacanthiformes;Culmacanthidae;N;Devonian;Givetian;387,7;Frasnian;372,2;379,95;N;Mt. Howitt;;Australia and Oceania;X;X;X;;S;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;acus;Diplacanthiformes;Diplacanthidae;N;Devonian;Famennian;372,2;Famennian;358,9;365,55;N;Grahamstown;Witpoort;Africa;X;X;X;;S;0;1;0;0;0;0;0;N;N;NA
+Diplacanthus;crassisimus;Diplacanthiformes;Diplacanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Achanarras;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;crassisimus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Den of Findon;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;crassisimus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Elgin;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;crassisimus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Tynet Burn;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;crassisimus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Cromarty;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;crassisimus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Lethen Bar;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;crassisimus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Orkney;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;crassisimus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Cruaday Quarry;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;crassisimus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Allt Muigh-bhlaraidh;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;kleesmentae;Diplacanthiformes;Diplacanthidae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Berzini-33 borehole;Vitebsk horizon;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Diplacanthus;kleesmentae;Diplacanthiformes;Diplacanthidae;Y;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Cherikov-1 borehole;Vitebsk horizon;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Diplacanthus;pechorensis;Diplacanthiformes;Diplacanthidae;N;Devonian;Pragian ;410,8;Pragian ;407,6;409,2;N;Toboy-14 borehole;Naul';Europe;X;X;X;;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Diplacanthus;poltnigi;Diplacanthiformes;Diplacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Matusevich river;Severnaya Zemlya;Asia;X;X;X;;N;1;1;1;0;0;0;0;Y;N;NA
+Diplacanthus;solidus;Diplacanthiformes;Diplacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Matusevich river;Severnaya Zemlya;Asia;X;X;X;;N;1;1;1;0;0;0;0;Y;N;NA
+Diplacanthus;sp.;Diplacanthiformes;Diplacanthidae;N;Devonian;Eifelian;393,3;Famennian;358,9;376,1;N;Orkney;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;sp.;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Famennian;358,9;376,1;N;Karksi outcrop;Burtnieki;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;sp.;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Famennian;358,9;376,1;N;St. Petersburg;R. Ischora;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;sp.;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Famennian;358,9;376,1;N;Den of Findon;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;sp.;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Famennian;358,9;376,1;N;Achanarras;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;tenuistriatus;Diplacanthiformes;Diplacanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Lybster;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;tenuistriatus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Den of Findon;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;tenuistriatus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Cromarty;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;tenuistriatus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Achanarras;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Diplacanthus;tenuistriatus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Lybster;Lybster Flagstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Milesacanthus;ancestralis;Diplacanthiformes;Diplacanthidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Al Qalibah region;Jawf;Asia;Africa;X;X;;N/S;0;1;1;1;0;0;0;N;N;NA
+Milesacanthus;ancestralis;Diplacanthiformes;Diplacanthidae;Y;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Southern Ahaggar;Oued Felaou;Asia;Africa;X;X;;N/S;0;1;1;1;0;0;0;N;N;NA
+Milesacanthus;antarctica;Diplacanthiformes;Diplacanthidae;N;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Portal Mountain;Aztec Siltstone;Antarctica;X;X;X;;S;1;0;0;0;0;0;0;N;N;NA
+Milesacanthus;sp.;Diplacanthiformes;Diplacanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Chahriseh;horizon GI4;Asia;X;X;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Rhadinacanthus;deltosquamosus;Diplacanthiformes;Diplacanthidae;N;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Karksi outcrop;Burtnieki;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Rhadinacanthus;deltosquamosus;Diplacanthiformes;Diplacanthidae;Y;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Novinka quarry;Burtnieki;Europe;X;X;X;;N;1;0;0;0;0;0;0;Y;N;NA
+Rhadinacanthus;ellsi;Diplacanthiformes;Diplacanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Miguasha;Escuminac;North America;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Rhadinacanthus;horridus;Diplacanthiformes;Diplacanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Miguasha;Escuminac;North America;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Rhadinacanthus (Diplacanthus);longispinus;Diplacanthiformes;Diplacanthidae;N;Silurian;Gorstian;427,4;Ludfordian;423;425,2;Y;Rauhe Berge;Beyrichienkalk;Europe;X;X;X;;N;1;0;1;0;0;0;0;N;N;NA
+Rhadinacanthus (Diplacanthus);longispinus;Diplacanthiformes;Diplacanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;Y;Cromarty;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;1;0;0;0;0;N;N;NA
+Rhadinacanthus (Diplacanthus);longispinus;Diplacanthiformes;Diplacanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;NA;Den of Findon;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;1;0;0;0;0;N;N;NA
+Rhadinacanthus (Diplacanthus);longispinus;Diplacanthiformes;Diplacanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;NA;Achanarras;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;1;0;0;0;0;N;N;NA
+Rhadinacanthus (Diplacanthus);longispinus;Diplacanthiformes;Diplacanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;NA;Orkney;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;1;0;0;0;0;N;N;NA
+Rhadinacanthus (Diplacanthus);longispinus;Diplacanthiformes;Diplacanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;NA;Stromness;Middle Old Red Sandstone;Europe;X;X;X;;N;1;0;1;0;0;0;0;N;N;NA
+Rhadinacanthus (Diplacanthus);longispinus;Diplacanthiformes;Diplacanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;NA;Estonia;Narova Stage;Europe;X;X;X;;N;1;0;1;0;0;0;0;N;N;NA
+Rhadinacanthus;primaris;Diplacanthiformes;Diplacanthidae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Kuptcheli-325 borehole;Vitebsk horizon;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Rhadinacanthus;primaris;Diplacanthiformes;Diplacanthidae;Y;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Braslav-8 borehole;Vitebsk horizon;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Striacanthus;overathensis;Incerti_ordinis;Incertae_familiae;N;Devonian;Pragian;410,8;Emsian;393,3;402,05;N;Stone quarry Heider;Wahnbachschichten;Europe;X;X;X;;N;0;1;1;1;1;0;0;N;Y;NA
+Striacanthus;overathensis;Incerti_ordinis;Incertae_familiae;Y;Devonian;Pragian;410,8;Emsian;393,3;402,05;NA;Podlazie Hill;Winna;Europe;X;X;X;;N;0;1;1;1;1;0;0;N;Y;NA
+Striacanthus;sicaeformis;Diplacanthiformes;Incertae_familiae;N;Devonian;Givetian;387,7;Famennian;358,9;373,3;N;Freestone Creek;Avon River Group;Australia and Oceania;X;X;X;;S;1;0;0;0;0;0;0;N;Y;NA
+Gladiobranchus;probaton;Diplacanthiformes;Gladiobranchidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;;N;0;0;0;1;0;0;0;N;N;NA
+Uraniacanthus;spinosus;Diplacanthiformes;Gladiobranchidae;N;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Wayne Herbert Quarry;Lower Old Red Sandstone;Europe;Asia;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Uraniacanthus;spinosus;Diplacanthiformes;Gladiobranchidae;Y;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;NA;Central Saudi Arabia;Jauf;Europe;Asia;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Uraniacanthus;curtus;Diplacanthiformes;Gladiobranchidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Farnell;Dundee Flagstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Uraniacanthus;curtus;Diplacanthiformes;Gladiobranchidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;NA;Turin Hill;Dundee Flagstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Uraniacanthus;curtus;Diplacanthiformes;Gladiobranchidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;NA;Hayston Hill;Lower Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Bryantonchus;peracutus;Diplacanthiformes;Incertae_familiae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Ely;Sevy Dolomite;North America;X;X;X;;N;1;1;1;0;0;0;0;N;Y;NA
+Bryantonchus;peracutus;Diplacanthiformes;Incertae_familiae;Y;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Hyrum;Water Canyon;North America;X;X;X;;N;1;1;1;0;0;0;0;N;Y;NA
+Bryantonchus;peracutus;Diplacanthiformes;Incertae_familiae;Y;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Delle;Water Canyon;North America;X;X;X;;N;1;1;1;0;0;0;0;N;Y;NA
+Bryantonchus;peracutus;Diplacanthiformes;Incertae_familiae;Y;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Beartooth Butte;Beartooth Butte;North America;X;X;X;;N;1;1;1;0;0;0;0;N;Y;NA
+Ptychodictyon;americanum;Diplacanthiformes;Incertae_familiae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Hyrum;Water Canyon;North America;X;X;X;;N;1;0;0;0;0;0;0;Y;N;NA
+Ptychodictyon;americanum;Diplacanthiformes;Incertae_familiae;Y;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Logan;Water Canyon;North America;X;X;X;;N;1;0;0;0;0;0;0;Y;N;NA
+Ptychodictyon;ancestralis;Diplacanthiformes;Incertae_familiae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Belarus;Vitebsk horizon;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Ptychodictyon;ancestralis;Diplacanthiformes;Incertae_familiae;Y;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Subate-2 borehole;Rezekne horizon;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Ptychodictyon;distinctum;Diplacanthiformes;Incertae_familiae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Mount Tavlefjellet;Grey Hoek;Europe;X;X;X;;N;1;1;1;0;0;0;0;Y;N;NA
+Ptychodictyon;distinctum;Diplacanthiformes;Incertae_familiae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Austfjord;Grey Hoek;Europe;X;X;X;;N;1;1;1;0;0;0;0;Y;N;NA
+Ptychodictyon;rimosum;Diplacanthiformes;Incertae_familiae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Estonia;Narova Stage;Europe;X;X;X;;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Ptychodictyon;sulcatum;Diplacanthiformes;Incertae_familiae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Estonia;Narova Stage;Europe;X;X;X;;N;1;0;0;0;0;0;0;Y;N;NA
+Ptychodictyon;sulcatum;Diplacanthiformes;Incertae_familiae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Karksi outcrop;Burtnieki;Europe;X;X;X;;N;1;0;0;0;0;0;0;Y;N;NA
+Sabrinacanthus;arcuatus;Incerti_ordinis;?Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Dzwinogrod;Podolian Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Sabrinacanthus;arcuatus;Incerti_ordinis;?Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;River Severn;Pteraspis leathensis zone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Sabrinacanthus;sp.;Incerti_ordinis;?Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tredomen Quarry;Lower Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Vernicomacanthus;uncinatus;Incerti_ordinis;?Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Turin Hill;Lower Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Vernicomacanthus;waynensis;Incerti_ordinis;?Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Wayne Herbert Quarry;Pteraspis crouchi zone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Brochoadmones;milesi;Incerti_ordinis;Brochoadmonidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;;N;0;0;0;1;0;0;0;N;N;NA
+Acanthacanthus;ornatus;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Spokojnaya river;Severnaya Zemlya;Asia;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Brachyacanthus;scutiger;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Farnell;Lower Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Brachyacanthus;scutiger;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tealing;Lower Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Brachyacanthus;scutiger;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Duntrune Quarry;Lower Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Brachyacanthus;scutiger;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Turin Hill;Lower Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Canadalepis;basdenae;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Lomandra Creek section;Lomandra limestone;Australia and Oceania;Asia;X;X;;N/S;0;1;1;1;1;0;0;Y;N;NA
+Canadalepis;basdenae;Incerti_ordinis;Climatiidae;Y;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Zinzilban Gorge;Zinzilban section;Australia and Oceania;Asia;X;X;;N/S;0;1;1;1;1;0;0;Y;N;NA
+Canadalepis;linguiformis;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;Y;S canon Fiord;Red Canyon River;North America;Europe;X;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Canadalepis;linguiformis;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;Y;Tareya River;Dolgan layers;Asia;X;X;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Canadalepis;linguiformis;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;Y;Lygumai-45 core;Tilze;North America;Europe;Asia;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Canadalepis;linguiformis;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;Y;Lygumai-45 core;Stoniskiai;North America;Europe;Asia;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Cheiracanthoides;borealis;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;Tareya River;Daxan layers;Asia;X;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Cheiracanthoides;borealis;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;n;Tareya River;Uryun beds;Asia;X;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Cheiracanthoides;comptus;Incerti_ordinis;Incertae_familiae;N;Devonian;Emsian;407,6;Givetian;382,7;395,15;N;Delaware County or Franklin County;Delaware limestone;North America;Asia;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Cheiracanthoides;comptus;Incerti_ordinis;Incertae_familiae;Y;Devonian;Emsian;407,6;Givetian;382,7;395,15;N;Kuh-e-Lakhal mountains;;North America;Asia;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Cheiracanthoides;comptus;Incerti_ordinis;Incertae_familiae;Y;Devonian;Emsian;407,6;Givetian;382,7;395,15;N;Tareya River;Dolgan layers;North America;Asia;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Cheiracanthoides;dolosus;Incerti_ordinis;Incertae_familiae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Ganxi-Shawozi section;Xiejiawan;Asia;X;X;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Cheiracanthoides;estonicus;Incerti_ordinis;Incertae_familiae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Narva River near Gorodenka;Vadja Substage;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Cheiracanthoides;estonicus;Incerti_ordinis;Incertae_familiae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Eividovichi-328 borehole;Vadja Substage;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Cheiracanthoides;mosolovicus;Incerti_ordinis;Incertae_familiae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;West Lekeiyaga-46 borehole;Lekeiyaga;Europe;X;X;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Cheiracanthoides;nativus;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Dvoriki-2 borehole;Stoniskiai;Europe;X;X;X;;N;0;0;0;1;0;0;0;Y;N;NA
+Cheiracanthoides;nativus;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Kunkojai-12 core;Stoniskiai;Europe;X;X;X;;N;0;0;0;1;0;0;0;Y;N;NA
+Cheiracanthoides;nativus;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Ledai?179 borehole;Stoniskiai;Europe;X;X;X;;N;0;0;0;1;0;0;0;Y;N;NA
+Cheiracanthoides;pinskensis;Incerti_ordinis;Incertae_familiae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Pinsk 10 borehole;Kostiukovichy;Europe;X;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Cheiracanthoides;pinskensis;Incerti_ordinis;Incertae_familiae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Zhitkovichi 2 borehole;Kostiukovichy;Europe;X;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Cheiracanthoides;pinskensis;Incerti_ordinis;Incertae_familiae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Borehole ? 6629;Veliky Most Subformation;Europe;X;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Cheiracanthoides;planus;Incerti_ordinis;Incertae_familiae;N;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Lygumai-45 core;Jura;Europe;X;X;X;;N;0;0;1;1;1;0;0;Y;N;NA
+Cheiracanthoides;planus;Incerti_ordinis;Incertae_familiae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Kunkojai-12 core;Tilze;Europe;X;X;X;;N;0;0;1;1;1;0;0;Y;N;NA
+Cheiracanthoides;planus;Incerti_ordinis;Incertae_familiae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Tomashevka-11 borehole;Domatchevo;Europe;X;X;X;;N;0;0;1;1;1;0;0;Y;N;NA
+Cheiracanthoides;planus;Incerti_ordinis;Incertae_familiae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Baltupenai-83 core;Tilze;Europe;X;X;X;;N;0;0;1;1;1;0;0;Y;N;NA
+Cheiracanthoides;proprius;Incerti_ordinis;Incertae_familiae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Kaniukai-261 borehole;Kernave;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Cheiracanthoides;proprius;Incerti_ordinis;Incertae_familiae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Saravai-427 borehole;Kernave;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Cheiracanthoides;proprius;Incerti_ordinis;Incertae_familiae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Stakiai-255 borehole;Kernave;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Cheiracanthoides;rarus;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tareya River;Uryun beds;Asia;X;X;X;;N;0;0;1;0;0;0;0;Y;N;NA
+Cheiracanthoides;sp.;Incerti_ordinis;Incertae_familiae;N;S - D;Pridoli;423;Emsian;393,3;408,15;N;Man Brook;Old Red Sandstone;Asia;Europe;X;X;;N;1;1;0;0;1;1;0;Y;N;NA
+Cheiracanthoides;sp.;Incerti_ordinis;Incertae_familiae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Chalonnes;La Grange;Asia;Europe;X;X;;N;1;1;0;0;1;1;0;Y;N;NA
+Cheiracanthoides;sp.;Incerti_ordinis;Incertae_familiae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Lijiang County;Shanjiang and Alengchu;Asia;Europe;X;X;;N;1;1;0;0;1;1;0;Y;N;NA
+Cheiracanthoides;wangi;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Longmenshan section;Xiejiawan;Asia;X;X;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Cheiracanthoides;wangi;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Liujingzhen;Yukiang and Ertang;Asia;X;X;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Cheiracanthoides;wangi;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Lijiang County;Alengchu;Asia;X;X;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Cheiracanthoides;wangi;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Lijiang County;Shanjiang and Alengchu;Asia;X;X;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Climatius;enodiscosta;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Seripona village;Catavi;South America;X;X;X;;S;0;1;0;0;0;0;0;N;Y;NA
+Climatius;scutiger;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Forfarshire;Lower Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Climatius;reticulatus;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Turin Hill;Dundee Flagstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Climatius;reticulatus;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Balruddery;Dundee Flagstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Climatius;reticulatus;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Forfarshire;Lower Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Climatius;sp.;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;Y;McAras Brook;Knoydart;North America;Europe;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Climatius;sp.;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;Y;Blacksmith's Fork;Water Canyon;North America;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Climatius;sp.;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;Y;Cottonwood Canyon;Water Canyon;North America;Europe;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Climatius;sp.;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;Y;Turin Hill;Dundee Flagstone;North America;Europe;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Eifellepis;werneri;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Schurf Wetteldorfer Richtschnitt;Lauch;Europe;X;X;X;;N;0;0;1;1;1;0;0;Y;N;NA
+Eifellepis;werneri;Incerti_ordinis;Climatiidae;Y;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Schurf Wetteldorfer Richtschnitt;Heisdorf;Europe;X;X;X;;N;0;0;1;1;1;0;0;Y;N;NA
+Endemolepis;inconstans;Incerti_ordinis;Climatiidae;N;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Stoniskiai-1 borehole;Jura;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Endemolepis;inconstans;Incerti_ordinis;Climatiidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Tomashevka-11 borehole;Domatchevo;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Endemolepis;inconstans;Incerti_ordinis;Climatiidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Ledai?179 borehole;Lapes;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Endemolepis;inconstans;Incerti_ordinis;Climatiidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Baltupenai-83 core;Lower Tilze Subformation;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Erriwacanthus;falcatus;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Dzwinogrod;Podolian Old Red Sandstone;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Erriwacanthus;manbrookensis;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Man Brook;Lower Old Red Sandstone;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Erriwacanthus;sp.;Incerti_ordinis;Climatiidae;N;S - D;Pridoli;423;Emsian;393,3;408,15;N;Cradley;Ledbury;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Erriwacanthus;sp.;Incerti_ordinis;Climatiidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Cusop Dingle;Lower Old Red Sandstone;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;N;NA
+Fecundosquama;basiglobosa;Incerti_ordinis;Tchunacanthidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Kurtuvenai-162 borehole;Jura or Lapes;Europe;X;X;X;;N;0;0;1;1;1;0;0;Y;N;NA
+Fecundosquama;basiglobosa;Incerti_ordinis;Tchunacanthidae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;G?luva-99 borehole;Jura or Lapes;Europe;X;X;X;;N;0;0;1;1;1;0;0;Y;N;NA
+Hanilepis;wangi;Incerti_ordinis;Climatiidae;N;Silurian;Ludfordian;425,6;Ludfordian;423;424,3;N;Xiaoxing Reservoir;Yulongsi and Miaogao;Asia;X;X;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Helolepis;bellarugosus;Incerti_ordinis;Climatiidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Delaware County or Franklin County;Delaware limestone;North America;X;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Helolepis;venustiloides;Incerti_ordinis;Climatiidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Delaware County or Franklin County;Delaware limestone;North America;X;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Iranolepis;ginteri;Incerti_ordinis;Climatiidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Chahriseh;horizon GI4;Asia;X;X;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Laliacanthus;ligeriensis;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Chalonnes;La Grange;Asia;Europe;X;X;;N;0;1;1;0;1;1;0;Y;N;NA
+Laliacanthus;ligeriensis;Incerti_ordinis;Climatiidae;Y;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Al Qalibah region;Jawf;Asia;Europe;X;X;;N;0;1;1;0;1;1;0;Y;N;NA
+Laliacanthus;singularis;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Ludza-15 borehole;;Europe;X;X;X;;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Latviacanthus;ventspilsensis;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Ventspils;Kemeri stage;Europe;X;X;X;;N;1;0;0;0;0;0;0;N;N;NA
+Minioracanthus;laevis;Incerti_ordinis;Climatiidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Astriakalnis-254 borehole;;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Minioracanthus;laevis;Incerti_ordinis;Climatiidae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Pusne-286 borehole;Kernave;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Monospina;erecta;Incerti_ordinis;Acritolepidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Olenya-2 borehole;;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Monospina;erecta;Incerti_ordinis;Acritolepidae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Olenya-3 borehole;;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Monospina;erecta;Incerti_ordinis;Acritolepidae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Indiga-379 borehole;Eptarma;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Monospina;erecta;Incerti_ordinis;Acritolepidae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Vuktyl-42 borehole;;Europe;X;X;X;;N;1;1;0;0;0;0;0;Y;N;NA
+Nodocosta;denisoni;Incerti_ordinis;?Climatiidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Blacksmith's Fork;Water Canyon;North America;X;X;X;;N;1;0;0;0;0;0;0;N;Y;NA
+Nodocosta;denisoni;Incerti_ordinis;?Climatiidae;Y;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Dry Lake;Water Canyon;North America;X;X;X;;N;1;0;0;0;0;0;0;N;Y;NA
+Nodocosta;denisoni;Incerti_ordinis;?Climatiidae;Y;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Delle;Water Canyon;North America;X;X;X;;N;1;0;0;0;0;0;0;N;Y;NA
+Nodocosta;pauli;Incerti_ordinis;?Climatiidae;N;Devonian;Eifelian;393,3;Famennian;358,9;376,1;N;Tamme;Burtnieki ;Europe;X;X;X;;N;1;1;0;0;0;0;0;N;Y;NA
+Pechoralepis;adzvensis;Incerti_ordinis;Acritolepidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Saremboy-2 borehole;Khatayakha;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Pechoralepis;adzvensis;Incerti_ordinis;Acritolepidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;North Saremboy-17 borehole;Khatayakha;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Pechoralepis;adzvensis;Incerti_ordinis;Acritolepidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Inzyrey-204 borehole;Khatayakha;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nostovicina;applicata;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;S canon Fiord;Red Canyon River;North America;X;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Nostovicina;athleta;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Kunkojai-12 core;Tilze;Europe;Asia;X;X;;N;0;0;1;1;0;0;0;Y;N;NA
+Nostovicina;athleta;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tareya River;Uryun beds;Europe;Asia;X;X;;N;0;0;1;1;0;0;0;Y;N;NA
+Nostovicina;curiosa;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tareya River;Uryun beds;Asia;X;X;X;;N;0;0;1;0;0;0;0;Y;N;NA
+Nostovicina;curta;Incerti_ordinis;Incertae_familiae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Tareya River;Dolgan layers;Asia;X;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Nostovicina;halli;Incerti_ordinis;Incertae_familiae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Halls Grav locality;Chester B(j)erg;North America;X;X;X;;N;0;0;1;0;0;0;0;Y;N;NA
+Nostovicina;multicostata;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;S canon Fiord;Red Canyon River;North America;X;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Nostolepis;amplifica;Incerti_ordinis;Climatiidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Ledai?179 borehole;Lapes;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;amplifica;Incerti_ordinis;Climatiidae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Kurtuvenai-162 borehole;Jura;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;amplifica;Incerti_ordinis;Climatiidae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Nida?44 borehole;Jura;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;arctica;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;S canon Fiord;Red Canyon River;North America;X;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Nostolepis;consueta;Incerti_ordinis;Climatiidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Ledai?179 borehole;Lapes;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;consueta;Incerti_ordinis;Climatiidae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Kurtuvenai-162 borehole;Jura;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;costata;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;Al Qalibah region;Jawf;Europe;Asia;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Nostolepis;costata;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;Saint-Cenere;Saint-Cenere;Europe;Asia;X;X;;N;0;1;1;0;0;0;0;Y;N;NA
+Nostolepis;decora;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Podemnaya river;Severnaya Zemlya;Asia;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Nostovicina;fragila;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Matusevich river;Severnaya Zemlya;Asia;X;X;X;;N;1;1;1;0;0;0;0;N;N;NA
+Nostolepis;gaujensis;Incerti_ordinis;Climatiidae;N;Devonian;Givetian;387,7;Frasnian;372,2;379,95;N;Sv?dasai-252 core;Šventoji;Europe;X;X;X;;N;1;0;0;0;0;0;0;Y;N;NA
+Nostolepis;gaujensis;Incerti_ordinis;Climatiidae;Y;Devonian;Givetian;387,7;Frasnian;372,2;379,95;N;Karksi outcrop;Burtnieki;Europe;X;X;X;;N;1;0;0;0;0;0;0;Y;N;NA
+Nostolepis;gracilis;Incerti_ordinis;Climatiidae;N;Silurian;Pridoli;423;Emsian;393,3;408,15;N;Baltupenai-83 core;Stoniskiai;Europe;North America;Asia;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Nostolepis;gracilis;Incerti_ordinis;Climatiidae;Y;Silurian;Pridoli;423;Emsian;393,3;408,15;N;Ledai?179 borehole;Stoniskiai;Europe;North America;Asia;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Nostolepis;gracilis;Incerti_ordinis;Climatiidae;Y;Silurian;Pridoli;423;Emsian;393,3;408,15;N;Kunkojai-12 core;Tilze;Europe;North America;Asia;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Nostolepis;gracilis;Incerti_ordinis;Climatiidae;Y;Silurian;Pridoli;423;Emsian;393,3;408,15;N;S canon Fiord;Red Canyon River;Europe;North America;Asia;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Nostolepis;gracilis;Incerti_ordinis;Climatiidae;Y;Silurian;Pridoli;423;Emsian;393,3;408,15;N;Oosterhaule;;Europe;North America;Asia;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Nostolepis;gracilis;Incerti_ordinis;Climatiidae;Y;Silurian;Pridoli;423;Emsian;393,3;408,15;N;Lijiang County;Shanjiang and Alengchu;Europe;North America;Asia;X;;N;0;1;1;1;0;0;0;Y;N;NA
+Nostolepis;infida;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Tareya River;Wijdeaspsis arctica zone;Asia;X;X;X;;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Nostovicina;guangxiensis;Incerti_ordinis;Incertae_familiae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Errang;Ertang;Asia;X;X;X;;N;0;0;1;1;0;0;0;Y;N;NA
+Nostolepis;kernavensis;Incerti_ordinis;Climatiidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Saravai-427 borehole;Kernave;Europe;X;X;X;;N;1;1;1;0;0;0;0;Y;N;NA
+Nostolepis;kernavensis;Incerti_ordinis;Climatiidae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Stakiai-255 borehole;Kernave;Europe;X;X;X;;N;1;1;1;0;0;0;0;Y;N;NA
+Nostolepis;kernavensis;Incerti_ordinis;Climatiidae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Orsha-2 borehole;Kostiukovichy;Europe;X;X;X;;N;1;1;1;0;0;0;0;Y;N;NA
+Nostolepis;kernavensis;Incerti_ordinis;Climatiidae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Pusne-286 borehole;Kernave;Europe;X;X;X;;N;1;1;1;0;0;0;0;Y;N;NA
+Nostolepis;kozhymica;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Kozhym River section;Ovinparma;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;kozhymica;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Vuktyl-58 borehole;Khatayakha;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;kozhymica;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Vaney Vis-1 borehole;Kumzha;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;kozhymica;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Labagan-76 borehole;Khatayakha;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;kozhymica;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;North Saremboy-19 borehole;Toravey;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;linleyensis;Incerti_ordinis;Climatiidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Linley Brook;Downton Castle Sandstone;Europe;X;X;X;;N;0;1;0;0;0;0;0;Y;N;NA
+Nostovicina;lacrima;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Central New South Wales;Cookeys Plains;Australia and Oceania;Asia;X;X;;N/S;0;0;1;1;1;1;0;Y;N;NA
+Nostovicina;lacrima;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tareya River;Uryun beds;Australia and Oceania;Asia;X;X;;N/S;0;0;1;1;1;1;0;Y;N;NA
+Nostovicina;laticristata;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Kunkojai-12 core;Tilze;Europe;X;X;X;;N;0;0;1;1;0;0;0;Y;N;NA
+Nostovicina;laticristata;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tomashevka-11 borehole;Domatchevo;Europe;X;X;X;;N;0;0;0;1;0;0;0;Y;N;NA
+Nostovicina;laticristata;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tareya River;Uryun beds;Europe;X;X;X;;N;0;0;0;1;0;0;0;Y;N;NA
+Nostovicina;multangula;Incerti_ordinis;Incertae_familiae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Tareya River;Uryun beds;Europe;X;X;X;;N;0;0;1;0;0;0;0;Y;N;NA
+Nobilesquama;longipostera;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Varknavt-5 borehole;Khatayakha;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nobilesquama;longipostera;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Sed’yaga-3 borehole;Khatayakha;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nobilesquama;longipostera;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Inzyrey-205 borehole;Khatayakha;Europe;X;X;X;;N;0;1;1;1;1;0;0;Y;N;NA
+Nobilesquama;longipostera;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Ust’-Talota-1 borehole;Khatayakha;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nobilesquama;longipostera;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Verkhnyaya Sotch-1 borehole;Ovinparma;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nobilesquama;minilonga;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;North Saremboy-19 borehole;Toravey;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nobilesquama;minilonga;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Vuktyl-58 borehole;Khatayakha;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nobilesquama;minilonga;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;West Lekeiyaga-46 borehole;Toravey;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;magnicostata;Incerti_ordinis;Climatiidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Nida?44 borehole;Jura;Europe;X;X;X;X;N;0;0;1;1;1;0;0;Y;N;NA
+Nostolepis;matukhini;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tareya River;Uryun beds;Asia;X;X;X;X;N;0;0;1;0;0;0;0;Y;N;NA
+Nostolepis;minima;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tomashevka-11 borehole;Domatchevo;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Nostolepis;minima;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Kunkojai-12 core;Tilze;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Nostolepis;minima;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Baltupenai-83 core;Tilze;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Nostolepis;musca;Incerti_ordinis;Climatiidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Nida?44 borehole;Jura;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;musca;Incerti_ordinis;Climatiidae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Ledai?179 borehole;Lapes;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;parathleta;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Sed’yaga-4 borehole;Toravey;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;parathleta;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Varandey-7 borehole;Toravey;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;parathleta;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Varknavt-7 borehole;Khatayakha;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostovicina;paravolborthi;Incerti_ordinis;Incertae_familiae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Olenya-3 borehole;;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Nostovicina;paravolborthi;Incerti_ordinis;Incertae_familiae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Olenya-2 borehole;;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Nostovicina;paravolborthi;Incerti_ordinis;Incertae_familiae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Vaney Vis-1 borehole;;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Nostovicina;platycrista;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;North Saremboy-19 borehole;Naul';Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostovicina;platycrista;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;North Saremboy-19 borehole;Toravey;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostovicina;platycrista;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;Toboy-11 borehole;Toravey;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostovicina;spina;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tareya River;Whitestone layers;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Nostovicina;spina;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tareya River;Uryun beds;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Nostovicina;spina;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tareya River;Daxan layers;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Nostovicina;tareyensis;Incerti_ordinis;Incertae_familiae;N;Devonian;Pragian;410,8;Pragian;407,6;409,2;N;Tareya River;Daxan layers;Europe;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Nostolepis;robusta;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tomashevka-11 borehole;Stoniskiai;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Nostolepis;robusta;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Ledai?179 borehole;Stoniskiai;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Nostolepis;robusta;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Kunkojai-12 core;Tilze;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Nostolepis;sinica;Incerti_ordinis;Climatiidae;N;Silurian;Gorstian;427,4;Pridoli;419,2;423,3;N;Shiyanpo section;Yulongsi;Asia;X;X;X;X;N;0;1;1;1;0;0;0;Y;N;NA
+Nostolepis;sp.;Incerti_ordinis;Climatiidae;N;S - D;Gorstian;427,4;Lochkovian;410,8;419,1;Y;Kaliningrad;Beyrichienkalk;Europe;X;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;sp.;Incerti_ordinis;Climatiidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;Y;Chahriseh;horizon GI4;Asia;X;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;sp.;Incerti_ordinis;Climatiidae;Y;S - D;Gorstian;427,4;Frasnian;372,2;399,8;Y;Hiddensee;Beyrichienkalk;Asia;Europe;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;sp.;Incerti_ordinis;Climatiidae;Y;S - D;Gorstian;427,4;Frasnian;372,2;399,8;Y;Rauhe Berge;Beyrichienkalk;Asia;Europe;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;sp.;Incerti_ordinis;Climatiidae;Y;S - D;Gorstian;427,4;Frasnian;372,2;399,8;Y;Mragowo;Beyrichienkalk;Asia;Europe;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;sp.;Incerti_ordinis;Climatiidae;Y;S - D;Gorstian;427,4;Frasnian;372,2;399,8;Y;Niederfinow;Beyrichienkalk;Asia;Europe;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;sp.;Incerti_ordinis;Climatiidae;Y;S - D;Gorstian;427,4;Frasnian;372,2;399,8;Y;Quijing district;Cuifengshan;Asia;Europe;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;cf. striata;Incerti_ordinis;Climatiidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Arisaig;Stonehouse;North America;X;X;X;X;N;0;0;1;0;0;0;0;Y;N;NA
+Nostolepis;striata;Incerti_ordinis;Climatiidae;N;S - D;Ludfordian;425,6;Emsian;393,3;409,45;N;Bydgoszcz;Beyrichienkalk;Asia;Europe;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;striata;Incerti_ordinis;Climatiidae;Y;S - D;Ludfordian;425,6;Emsian;393,3;409,45;N;Xiaoxing Reservoir;Yulongsi;Asia;Europe;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;striata;Incerti_ordinis;Climatiidae;Y;S - D;Ludfordian;425,6;Emsian;393,3;409,45;N;Lithuania and Latvia;;Asia;Europe;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;striata;Incerti_ordinis;Climatiidae;Y;S - D;Ludfordian;425,6;Emsian;393,3;409,45;N;Rotaichitsy-12 and Tomashevka-11 core;Domatchevo and Dubitsa?;Asia;Europe;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;striata;Incerti_ordinis;Climatiidae;Y;S - D;Ludfordian;425,6;Emsian;393,3;409,45;N;Dvoriki-2 borehole;Stoniskiai;Asia;Europe;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;striata;Incerti_ordinis;Climatiidae;Y;S - D;Ludfordian;425,6;Emsian;393,3;409,45;N;Lijiang County;Shanjiang and Alengchu;Asia;Europe;X;X;X;N;0;1;1;1;0;0;0;N;N;NA
+Nostolepis;taimyrica;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Pioneer Island;Dolgan layers;Europe;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Nostolepis;tcherkesovae;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tareya River;Whitestone layers;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Nostolepis;tcherkesovae;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tareya River;Uryun beds;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Nostolepis;terraborea;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Sed’yaga-4 borehole;Toravey;Europe;North America;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;terraborea;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;West Lekeiyaga-46 borehole;Toravey;Europe;North America;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;terraborea;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Toravey-25 borehole;Toravey;Europe;North America;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepis;terraborea;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;Europe;North America;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostovicina;timanica;Incerti_ordinis;Incertae_familiae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Pioneer Island;sample P-10-1;Asia;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Pechoralepis;valentinae;Incerti_ordinis;Acritolepidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;West Lekeiyaga-42 borehole;Toravey;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Pechoralepis;valentinae;Incerti_ordinis;Acritolepidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Varandey-7 borehole;Toravey;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Pechoralepis;valentinae;Incerti_ordinis;Acritolepidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Sed’yaga-4 borehole;Toravey;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Pechoralepis;valentinae;Incerti_ordinis;Acritolepidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;North Saremboy-19 borehole;Toravey;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nobilesquama;watsoni;Incerti_ordinis;Incertae_familiae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Pioneer Island;sample P-10-1;Asia;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Pechoralepis;zinaidae;Incerti_ordinis;Acritolepidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Kozhym River section;Ovinparma;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Pechoralepis;zinaidae;Incerti_ordinis;Acritolepidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tcherpayu-22 borehole;Khatayakha;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Nostolepoides;mingyinensis;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;Lijiang County;Shanjiang and Alengchu;Asia;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Nostolepoides;platymarginata;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;Bogong woolshed;Gleninga;Australia and Oceania;X;X;X;X;S;0;1;1;0;0;0;0;Y;N;NA
+Nostolepoides;platymarginata;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;The Troffs railway station;Trundle Beds;Australia and Oceania;X;X;X;X;S;0;1;1;0;0;0;0;Y;N;NA
+Paranostolepis;glabra;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;S canon Fiord;Red Canyon River;North America;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Parexus;recurvus;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Turin Hill;Dundee Flagstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Parexus;recurvus;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Balruddery;Dundee Flagstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Parexus;recurvus;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Farnell;Dundee Flagstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Parexus;recurvus;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Angus;Dundee Flagstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Parexus;recurvus;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Forfarshire;Dundee Flagstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Parexus;sp.;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Farnell;Dundee Flagstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Parexus;sp.;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Cradley;Lower Old Red Sandstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Pruemolepis;wellsi;Incerti_ordinis;Climatiidae;N;S - D;Pridoli;423;Lochkovian;410,8;416,9;Y;Kunkojai-12 core;Jura;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Pruemolepis;wellsi;Incerti_ordinis;Climatiidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;Y;Lekeciai-87 core;Jura;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Pruemolepis;wellsi;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;Y;Schurf Wetteldorfer Richtschnitt;Lauch;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Pruemolepis;wellsi;Incerti_ordinis;Climatiidae;Y;S - D;Pridoli;423;Eifelian;387,7;405,35;Y;Held E. Pruem;Heisdorf;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Pruemolepis;wellsi;Incerti_ordinis;Climatiidae;Y;S - D;Pridoli;423;Eifelian;387,7;405,35;Y;Steinbruch am Euelsberg;Wetteldorf;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Pruemolepis;wellsi;Incerti_ordinis;Climatiidae;Y;S - D;Pridoli;423;Eifelian;387,7;405,35;Y;Tomashevka-11 borehole;Domatchevo;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Ptomacanthus;anglicus;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Wayne Herbert Quarry;;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Ptomacanthus;sp.;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Dinas Estate;Lower Old Red Sandstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Sevyacanthus;elliotti;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Cottonwood Canyon;Water Canyon;North America;X;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Sevyacanthus;elliotti;Incerti_ordinis;Climatiidae;Y;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Dry Canyon South locality;Sevy Dolomite;North America;X;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Tareyacanthus;dissectus;Incerti_ordinis;Climatiidae;N;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Kunkojai-12 core;Stoniskiai;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Tareyacanthus;dissectus;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Ledai?179 borehole;Stoniskiai;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Tareyacanthus;dissectus;Incerti_ordinis;Climatiidae;Y;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;East Baltic;;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Tareyacanthus;magnificus;Incerti_ordinis;Climatiidae;N;Devonian;Pragian;410,8;Emsian;393,3;402,05;N;Tareya River;Yunhod layers;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Tareyacanthus;magnificus;Incerti_ordinis;Climatiidae;Y;Devonian;Pragian;410,8;Emsian;393,3;402,05;N;Tareya River;Dolgan layers;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Tareyacanthus;sp.;Incerti_ordinis;Climatiidae;N;Devonian;Pragian;410,8;Emsian;393,3;402,05;N;Longmenshan section;Ganxi and lower Xiejiawan;Asia;X;X;X;X;N;0;1;1;1;0;0;0;Y;N;NA
+Vesperalia;perplexa;Incerti_ordinis;Vesperaliidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Stoniskiai-1 borehole;Jura;Europe;X;X;X;X;N;0;0;1;1;1;0;0;Y;N;NA
+Vesperalia;perplexa;Incerti_ordinis;Vesperaliidae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Nida?44 borehole;Jura;Europe;X;X;X;X;N;0;0;1;1;1;0;0;Y;N;NA
+Peregrinosquama;costata;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;Y;Spokojnaya river;Severnaya Zemlya;Asia;X;X;X;X;N;1;1;1;0;0;0;0;Y;N;NA
+Peregrinosquama;costata;Incerti_ordinis;Incertae_familiae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;Y;Pioneer Island;sample P-10-1;Asia;X;X;X;X;N;1;1;1;0;0;0;0;Y;N;NA
+Watsonacanthus;oervigi;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Tareya River;Dolgan layers;Asia;Europe;X;X;X;N;1;1;1;0;0;0;0;Y;N;NA
+Watsonacanthus;oervigi;Incerti_ordinis;Climatiidae;Y;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Mount Watson;Elsvikfjellet;Asia;Europe;X;X;X;N;1;1;1;0;0;0;0;Y;N;NA
+Watsonacanthus;sibiricus;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Tareya River;Wijdeaspsis arctica zone;Asia;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Wetteldorfia;sp.;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Al Qalibah region;Jawf;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Wetteldorfia;triangula;Incerti_ordinis;Climatiidae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Schurf Wetteldorfer Richtschnitt;Lauch;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Wetteldorfia;triangula;Incerti_ordinis;Climatiidae;Y;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;W Couvin;Heisdorf;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Wetteldorfia;triangula;Incerti_ordinis;Climatiidae;Y;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Steinbruch am Euelsberg;Wetteldorf;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Euthacanthus;gracilis;Incerti_ordinis;Euthacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tealing;Dundee Flagstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Euthacanthus;gracilis;Incerti_ordinis;Euthacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Farnell;Dundee Flagstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Euthacanthus;macnicoli;Incerti_ordinis;Euthacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Turin Hill;Dundee Flagstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Euthacanthus;macnicoli;Incerti_ordinis;Euthacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Forfarshire;Lower Old Red Sandstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Euthacanthus;sp.;Incerti_ordinis;Euthacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Turin Hill;Dundee Flagstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Antacanthus;insignis;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Tournaisian;358,9;Serpukhovian;323,2;341,05;N;Liege;Carboniferous Limestone;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;Y;NA
+Gyracanthides;hawkinsi;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Visean;346,7;Visean;330,9;338,8;N;Middle Paddock site;Ducabrook;Australia  and Oceania;X;X;X;X;S;1;1;0;0;0;0;0;N;N;NA
+Gyracanthides;murrayi;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Tournaisian;358,9;Tournaisian;346,7;352,8;N;Broken River;Snowy Plains;Australia  and Oceania;X;X;X;X;S;1;0;0;0;0;0;0;N;N;NA
+Gyracanthides;sp.;Incerti_ordinis;Gyracanthidae;N;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Klipbokkop Mountain;;Africa;X;X;X;X;S;1;1;0;0;0;0;0;N;Y;NA
+Gyracanthides;warreni;Incerti_ordinis;Gyracanthidae;N;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Boomerang Range;Aztec Siltstone;Antarctica;X;X;X;X;S;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthides;warreni;Incerti_ordinis;Gyracanthidae;Y;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Mt. Gudmunson & Fault Bluff;Aztec Siltstone;Antarctica;X;X;X;X;S;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus;alleni;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Tournaisian;358,9;Tournaisian;346,7;352,8;N;Medina Co.;Waverly;North America;X;X;X;X;N;1;1;1;0;0;0;0;N;Y;NA
+Gyracanthus;compressus;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Tournaisian;358,9;Tournaisian;346,7;352,8;N;Bagdad;Cuyahoga Shale;North America;X;X;X;X;N;1;1;1;0;0;0;0;N;Y;NA
+Gyracanthus;convexus;Incerti_ordinis;Gyracanthidae;N;Devonian;Pragian;410,8;Pragian;407,6;409,2;?;Stone quarry Heider;Wahnbachschichten;Europe;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Gyracanthus;convexus;Incerti_ordinis;Gyracanthidae;Y;Devonian;Pragian;410,8;Pragian;407,6;409,2;?;Belkenscheid;Wiesel;Europe;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Gyracanthus;convexus;Incerti_ordinis;Gyracanthidae;Y;Devonian;Pragian;410,8;Pragian;407,6;409,2;?;Koblenz;Nellenköpfchenschichten;Europe;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Gyracanthus;convexus;Incerti_ordinis;Gyracanthidae;Y;Devonian;Pragian;410,8;Pragian;407,6;409,2;?;Bresebachtal;;Europe;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Gyracanthus;convexus;Incerti_ordinis;Gyracanthidae;Y;Devonian;Pragian;410,8;Pragian;407,6;409,2;?;Oberstadtfeld;;Europe;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Gyracanthus ;formosus;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Tournaisian;358,9;Gzhelian;298,9;328,9;?;Staffordshire;Deep Mine Ironstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus ;formosus;Incerti_ordinis;Gyracanthidae;Y;Carboniferous;Tournaisian;358,9;Gzhelian;298,9;328,9;?;Newsham;Coal Measures;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus ;formosus;Incerti_ordinis;Gyracanthidae;Y;Carboniferous;Tournaisian;358,9;Gzhelian;298,9;328,9;?;Dudley;Coal Measures;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus ;formosus;Incerti_ordinis;Gyracanthidae;Y;Carboniferous;Tournaisian;358,9;Gzhelian;298,9;328,9;?;Airdrie;Coal Measures;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus ;formosus;Incerti_ordinis;Gyracanthidae;Y;Carboniferous;Tournaisian;358,9;Gzhelian;298,9;328,9;?;Lesmahagow;Coal Measures;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus ;formosus;Incerti_ordinis;Gyracanthidae;Y;Carboniferous;Tournaisian;358,9;Gzhelian;298,9;328,9;?;Carluke;Coal Measures;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus ;formosus;Incerti_ordinis;Gyracanthidae;Y;Carboniferous;Tournaisian;358,9;Gzhelian;298,9;328,9;?;Barnsley;;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus ;formosus;Incerti_ordinis;Gyracanthidae;Y;Carboniferous;Tournaisian;358,9;Gzhelian;298,9;328,9;?;Longton;Deep Mine Ironstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus ;formosus;Incerti_ordinis;Gyracanthidae;Y;Carboniferous;Tournaisian;358,9;Gzhelian;298,9;328,9;?;Northumberland;Coal Measures;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus;incurvus;Incerti_ordinis;Gyracanthidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Campbellton;Atholville beds;North America;X;X;X;X;N;0;1;0;0;0;0;0;N;Y;NA
+Gyracanthus;inornatus;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Tournaisian;358,9;Tournaisian;346,7;352,8;N;Wayne Co.;Waverly;North America;X;X;X;X;N;1;1;1;0;0;0;0;N;Y;NA
+Gyracanthus;nobilis;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Serpukhovian;330,9;Serpukhovian;323,2;327,05;N;Cowdenbeath;Little Splint Coal;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus;obliquus;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Serpukhovian;330,9;Serpukhovian;323,2;327,05;Y;Edge Coal Group;Carboniferous Limestone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus;obliquus;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Moscovian;315,2;Moscovian;307;311,1;Y;Newcastle;Coal Measures;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus;rectus;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Visean;346,7;Visean;330,9;338,8;N;Burdiehouse;Calciferous Sandstones;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Gyracanthus;rothrocki;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Serpukhovian;330,9;Serpukhovian;323,2;327,05;N;Wyandotte Cave;Indian Springs shale;North America;X;X;X;X;N;0;1;0;0;0;0;0;N;Y;NA
+Gyracanthus;seriponensis;Incerti_ordinis;Gyracanthidae;N;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Seripona village;Catavi;South America;X;X;X;X;S;0;1;0;0;0;0;0;N;Y;NA
+Gyracanthus;sherwoodi;Incerti_ordinis;Gyracanthidae;N;Devonian;Lochkovian;419,2;Famennian;358,9;389,05;N;Lamb's Creek;Catskill;North America;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Gyracanthus ;sp.;Incerti_ordinis;Gyracanthidae;N;D - C;Lochkovian;419,2;Gzhelian;298,9;359,05;?;Newcastle;Coal Measures;Europe;North America;South America;X;X;N/S;1;1;0;0;0;0;0;N;Y;NA
+Gyracanthus ;sp.;Incerti_ordinis;Gyracanthidae;Y;D - C;Lochkovian;419,2;Gzhelian;298,9;359,05;?;Pit 15, Peabody Coal Company;Carbondale;Europe;North America;South America;X;X;N/S;1;1;0;0;0;0;0;N;Y;NA
+Gyracanthus ;sp.;Incerti_ordinis;Gyracanthidae;Y;D - C;Lochkovian;419,2;Gzhelian;298,9;359,05;?;Pit 12, Braywood;Carbondale;Europe;North America;South America;X;X;N/S;1;1;0;0;0;0;0;N;Y;NA
+Gyracanthus ;sp.;Incerti_ordinis;Gyracanthidae;Y;D - C;Lochkovian;419,2;Gzhelian;298,9;359,05;?;Seripona village;Catavi;Europe;North America;South America;X;X;N/S;1;1;0;0;0;0;0;N;Y;NA
+Gyracanthus ;sp.;Incerti_ordinis;Gyracanthidae;Y;D - C;Lochkovian;419,2;Gzhelian;298,9;359,05;?;Ulysses;Catskill;Europe;North America;South America;X;X;N/S;1;1;0;0;0;0;0;N;Y;NA
+Gyracanthus ;sp.;Incerti_ordinis;Gyracanthidae;Y;D - C;Lochkovian;419,2;Gzhelian;298,9;359,05;?;Ohiopyle;Greenbrier limestone;Europe;North America;South America;X;X;N/S;1;1;0;0;0;0;0;N;Y;NA
+Gyracanthus ;sp.;Incerti_ordinis;Gyracanthidae;Y;D - C;Lochkovian;419,2;Gzhelian;298,9;359,05;?;Carluke;Coal Measures;Europe;North America;South America;X;X;N/S;1;1;0;0;0;0;0;N;Y;NA
+Gyracanthus ;sp.;Incerti_ordinis;Gyracanthidae;Y;D - C;Lochkovian;419,2;Gzhelian;298,9;359,05;?;Burdiehouse;Coal Measures;Europe;North America;South America;X;X;N/S;1;1;0;0;0;0;0;N;Y;NA
+Gyracanthus ;sp.;Incerti_ordinis;Gyracanthidae;Y;D - C;Lochkovian;419,2;Gzhelian;298,9;359,05;?;Dudley;Coal Measures;Europe;North America;South America;X;X;N/S;1;1;0;0;0;0;0;N;Y;NA
+Gyracanthus ;sp.;Incerti_ordinis;Gyracanthidae;Y;D - C;Lochkovian;419,2;Gzhelian;298,9;359,05;?;Crooked Burn;Cementstones Group;Europe;North America;South America;X;X;N/S;1;1;0;0;0;0;0;N;Y;NA
+Gyracanthus ;youngi;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Tournaisian;358,9;Gzhelian;298,9;328,9;N;Dudley;Coal Measures;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;Y;NA
+Oracanthus;pustulosus;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Visean;346,7;Visean;330,9;338,8;N;Bristol;Carboniferous Limestone;Europe;X;X;X;X;N;1;1;1;0;0;0;0;N;Y;NA
+Oracanthus;milleri;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Tournaisian;358,9;Tournaisian;346,7;352,8;N;LeGrand;Kinderhook;North America;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;Y;NA
+Oracanthus;vetustus;Incerti_ordinis;Gyracanthidae;N;Carboniferous;Tournaisian;358,9;Visean;330,9;344,9;N;LeGrand;Kinderhook;North America;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Oracanthus;vetustus;Incerti_ordinis;Gyracanthidae;Y;Carboniferous;Tournaisian;358,9;Visean;330,9;344,9;N;Alton;St. Louis limestone;North America;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Acanthospina;irregulare;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Podemnaya river;Severnaya Zemlya;Asia;X;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Acritolepis;urvantsevi;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Podemnaya river;Severnaya Zemlya;Asia;X;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Acritolepis;ushakovi;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Spokojnaya river;Severnaya Zemlya;Asia;X;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Acritolepis;ushakovi;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Matusevich river;Severnaya Zemlya;Asia;X;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Antarctonchus;glacialis;Incerti_ordinis;Incertae_familiae;N;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Boomerang Range;Aztec Siltstone;Antarctica;X;X;X;X;S;1;0;0;0;0;0;0;N;Y;NA
+Apateacanthus;vetustus;Incerti_ordinis;Incertae_familiae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;New York State;Cashaqua shale;North America;X;X;X;X;N;0;0;0;0;0;1;1;N;Y;NA
+Archaeacanthus;quadrisulcatus;Incerti_ordinis;Incertae_familiae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Hotnezha village;;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;Y;NA
+Byssacanthoides;debenhami;Incerti_ordinis;Incertae_familiae;N;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Gondola Ridge;Aztec Siltstone;Antarctica;X;X;X;X;S;1;0;0;0;0;0;0;N;N;NA
+Cassidiceps;vermiculatus;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;N;NA
+Devononchus;concinnus;Incerti_ordinis;Incertae_familiae;N;Devonian;Eifelian;393,3;Famennian;358,9;376,1;?;Cesis;;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;N;NA
+Devononchus;concinnus;Incerti_ordinis;Incertae_familiae;Y;Devonian;Eifelian;393,3;Famennian;358,9;376,1;?;River Gauja;Middle Old Red Sandstone;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;N;NA
+Devononchus;concinnus;Incerti_ordinis;Incertae_familiae;Y;Devonian;Eifelian;393,3;Famennian;358,9;376,1;?;Rivers Brasla & Gauja;Middle Old Red Sandstone;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;N;NA
+Devononchus;laevis;Incerti_ordinis;Incertae_familiae;N;Devonian;Frasnian;382,7;Famennian;358,9;370,8;?;Teufelshöhle an der Abava;;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;Y;NA
+Devononchus;laevis;Incerti_ordinis;Incertae_familiae;Y;Devonian;Frasnian;382,7;Famennian;358,9;370,8;?;Kalnamuiza;;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;Y;NA
+Devononchus;tenuispinus;Incerti_ordinis;Incertae_familiae;N;Devonian;Frasnian;382,7;Famennian;358,9;370,8;N;River Venta;Upper Old Red Sandstone;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;Y;NA
+Gemuendolepis;muelleri;Incerti_ordinis;Incertae_familiae;N;Devonian;Pragian;410,8;Pragian;407,6;409,2;N;Gmünden im Hunsrueck;Hunsrueck Schiefer;Europe;X;X;X;X;N;0;0;0;0;1;1;0;Y;N;NA
+Granulacanthus;joenelsoni;Incerti_ordinis;Incertae_familiae;N;Silurian;Homerian;430,5;Gorstian;425,6;428,05;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;Y;NA
+Granulacanthus;sp.;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;Y;NA
+Haplacanthus;ehrmanensis;Incerti_ordinis;Incertae_familiae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Latvia;;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;Y;NA
+Haplacanthus;marginalis;Incerti_ordinis;Incertae_familiae;N;Devonian;Eifelian;393,3;Famennian;358,9;376,1;N;Tamme;Burtnieki;Europe;X;X;X;X;N;1;1;0;0;0;0;0;N;Y;NA
+Haplacanthus;marginalis;Incerti_ordinis;Incertae_familiae;Y;Devonian;Eifelian;393,3;Famennian;358,9;376,1;N;Russia;Old Red Sandstone;Europe;X;X;X;X;N;1;1;0;0;0;0;0;N;Y;NA
+Haplacanthus;perseensis;Incerti_ordinis;Incertae_familiae;N;Devonian;Frasnian;382,7;Famennian;358,9;370,8;N;Koknese;;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;Y;NA
+Homacanthus;elegans;Incerti_ordinis;Incertae_familiae;N;Carboniferous;Tournaisian;358,9;Serpukhovian;323,2;341,05;?;Low Moor;Better Bed Coal;Europe;X;X;X;X;N;0;1;0;0;0;0;0;N;Y;NA
+Homacanthus;elegans;Incerti_ordinis;Incertae_familiae;Y;Carboniferous;Tournaisian;358,9;Serpukhovian;323,2;341,05;?;Burnlay;Coal Measures;Europe;X;X;X;X;N;0;1;0;0;0;0;0;N;Y;NA
+Homacanthus;elegans;Incerti_ordinis;Incertae_familiae;Y;Carboniferous;Tournaisian;358,9;Serpukhovian;323,2;341,05;?;Burnlay;Mid Coal Measures;Europe;X;X;X;X;N;0;1;0;0;0;0;0;N;Y;NA
+Homacanthus;gracilis;Incerti_ordinis;Incertae_familiae;N;Devonian;Givetian;387,7;Givetian;382,7;385,2;N;Tamme;Burtnieki;Europe;X;X;X;X;N;1;1;0;0;0;0;0;N;Y;NA
+Homacanthus;microdus;Incerti_ordinis;Incertae_familiae;N;Carboniferous;Visean;346,7;Visean;330,9;338,8;N;Armagh;Carboniferous Limestone;Europe;X;X;X;X;N;1;1;1;0;0;0;0;N;Y;NA
+Homacanthus;minutus;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Famennian;358,9;389,05;N;Russia;Old Red Sandstone;Europe;Asia;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;Y;NA
+Homacanthus;sp.;Incerti_ordinis;Incertae_familiae;N;Carboniferous;Visean;346,7;Visean;330,9;338,8;N;Shropshire;Carboniferous Limestone;Europe;X;X;X;X;N;1;1;1;0;0;0;0;N;Y;NA
+Indet.;Indet. MCP-3286PV;Incerti ordinis;Incertae familiae;N;Permian;Roadian;272,95;Capitanian;259,1;266,025;N;Sao Gabriel;Teresina;South America;X;X;X;X;S;0;0;0;1;1;0;0;Y;N;NA
+Indet.;Indet. MCN PV2352;Incerti ordinis;Incertae familiae;N;Permian;Roadian;272,95;Capitanian;259,1;266,025;N;Sao Gabriel;Teresina;South America;X;X;X;X;S;0;0;0;1;1;0;0;N;Y;NA
+Isodendracanthus;ramiformis;Incerti_ordinis;Incertae_familiae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Austfjord;Grey Hoek;Europe;X;X;X;X;N;1;1;1;0;0;0;0;Y;N;NA
+Isodendracanthus;ramiformis;Incerti_ordinis;Incertae_familiae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Mount Watson;Grey Hoek;Europe;X;X;X;X;N;1;1;1;0;0;0;0;Y;N;NA
+Isodendracanthus;ramiformis;Incerti_ordinis;Incertae_familiae;Y;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Andree Land;Grey Hoek;Europe;X;X;X;X;N;1;1;1;0;0;0;0;Y;N;NA
+Lijangichthys;lembodes;Incerti_ordinis;Incertae_familiae;N;Devonian;Pragian;410,8;Pragian;407,6;409,2;N;Lijiang County;Alengchu;Asia;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Lupopsyrus;pygmaeus;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;N;NA
+Nancisurena;burrowae;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;N;NA
+Nodonchus;bambusifer;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Besom Farm Quarry;Lower Old Red Sandstone;Europe;Asia;X;X;X;N;1;1;0;0;0;0;0;N;Y;NA
+Nodonchus;bambusifer;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Central Saudi Arabia;Jauf;Europe;Asia;X;X;X;N;1;1;0;0;0;0;0;N;Y;NA
+Nodonchus;bambusifer;Incerti_ordinis;Incertae_familiae;Y;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Umm Nukhaylak;Jauf;Europe;Asia;X;X;X;N;1;1;0;0;0;0;0;N;Y;NA
+Nodonchus;rectus;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Seripona village;Catavi;South America;X;X;X;X;S;0;1;0;0;0;0;0;N;Y;NA
+Nodonchus;sp.;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Llan-y-coed;Lower Old Red Sandstone;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;Y;NA
+Onchus;granulatus;Incerti_ordinis;Incertae_familiae;N;Silurian;Ludfordian;425,6;Pridoli;419,2;422,4;N;Kujakowice;Beyrichienkalk;Europe;X;X;X;X;N;0;0;1;0;0;0;0;N;Y;NA
+Onchus;heterogyrus;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Famennian;358,9;389,05;N;Russia;Old Red Sandstone;Europe;Asia;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;N;Y;NA
+Onchus;major;Incerti_ordinis;Incertae_familiae;N;Devonian;Pragian;410,8;Pragian;407,6;409,2;N;Stone quarry Heider;Wahnbachschichten;Europe;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Onchus;murchisoni;Incerti_ordinis;Incertae_familiae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Downton Castle;Temeside shales, Olive shales;Europe;X;X;X;X;N;0;1;0;0;0;0;0;N;Y;NA
+Onchus;murchisoni;Incerti_ordinis;Incertae_familiae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Quarry by old tin mill;Downton bone bed;Europe;X;X;X;X;N;0;1;0;0;0;0;0;N;Y;NA
+Onchus;punctuatus;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Seripona village;Catavi;South America;X;X;X;X;S;0;1;0;0;0;0;0;N;Y;NA
+Onchus;cf.peracutus;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;Holland Quarry;Holland Quarry;North America;X;X;X;X;N;1;1;0;0;0;0;0;N;Y;NA
+Onchus;sicaeformis;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Seripona village;Catavi;South America;X;X;X;X;S;0;1;0;0;0;0;0;N;Y;NA
+Onchus ;sp.;Incerti_ordinis;Incertae_familiae;N;Silurian;Ludfordian;425,6;Emsian;393,3;409,45;?;Ledbury Railway Cutting;Ledbury;Europe;South America;X;X;X;N/S;1;1;1;0;0;0;0;N;Y;NA
+Onchus ;sp.;Incerti_ordinis;Incertae_familiae;Y;Silurian;Ludfordian;425,6;Emsian;393,3;409,45;?;Saaremaa;Beyrichienkalk;Europe;South America;X;X;X;N/S;1;1;1;0;0;0;0;N;Y;NA
+Onchus ;sp.;Incerti_ordinis;Incertae_familiae;Y;Silurian;Ludfordian;425,6;Emsian;393,3;409,45;?;Seripona village;Catavi;Europe;South America;X;X;X;N/S;1;1;1;0;0;0;0;N;Y;NA
+Onchus;tenuistriatus;Incerti_ordinis;Incertae_familiae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Ledbury Railway Cutting;Ledbury;Europe;X;X;X;X;N;1;1;0;0;0;0;0;N;Y;NA
+Onchus;tenuistriatus;Incerti_ordinis;Incertae_familiae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Downton Castle;Temeside shales, Olive shales;Europe;X;X;X;X;N;1;1;0;0;0;0;0;N;Y;NA
+Paucicanthus;vanelsti;Incerti_ordinis;Incertae_familiae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;N;NA
+Pinnacanthus;inequistriatus;Incerti_ordinis;Incertae_familiae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Beartooth Butte;Beartooth Butte;North America;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Pinnacanthus;inequistriatus;Incerti_ordinis;Incertae_familiae;Y;Devonian;Kungurian;407,6;Emsian;393,3;400,45;N;Blacksmith's Fork;Water Canyon;North America;X;X;X;X;N;1;0;0;0;0;0;0;N;Y;NA
+Rodriguezichthyes;luedersensis;Incerti ordinis;Incertae familiae;N;Permian;Kungurian;283,5;Kungurian;272,95;278,225;N;Brazos River;Lueders;North America;X;X;X;X;N;0;1;0;0;0;0;0;N;N;NA
+Yealepis;douglasi;Incerti_ordinis;Incertae_familiae;N;Silurian;Gorstian;427,4;Ludfordian;423;425,2;N;Yea;Yea;Australia and Oceania;X;X;X;X;S;0;0;0;0;0;1;1;N;N;NA
+Machaeracanthus;bohemicus;Incerti_ordinis;Machaeracanthidae;N;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;?;Lochkov;Lochkov;Europe;Asia;X;X;X;N;0;1;0;1;1;1;1;N;N;NA
+Machaeracanthus;bohemicus;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;?;Liujingzhen;Nakaoling;Europe;Asia;X;X;X;N;0;1;0;1;1;1;1;N;N;NA
+Machaeracanthus;bohemicus;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;?;Kaiserl stone quarry;Konjeprus-Kalk;Europe;Asia;X;X;X;N;0;1;0;1;1;1;1;N;N;NA
+Machaeracanthus;bohemicus;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;?;Quingenberg;Knotenkalk;Europe;Asia;X;X;X;N;0;1;0;1;1;1;1;N;N;NA
+Machaeracanthus;kayseri;Incerti_ordinis;Machaeracanthidae;N;Devonian;Pragian;410,8;Pragian;407,6;409,2;N;Stone quarry Heider;Wahnbachschichten;Europe;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Machaeracanthus;kayseri;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Pragian;410,8;Pragian;407,6;409,2;N;Gemünd;Gmünd Conglomerate;Europe;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Machaeracanthus;kayseri;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Pragian;410,8;Pragian;407,6;409,2;N;Leyenküppel;Taunusquarzit;Europe;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Machaeracanthus;longaevus;Incerti_ordinis;Machaeracanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Hamilton;Hamilton;North America;X;X;X;X;N;0;0;0;1;1;1;1;N;Y;NA
+Machaeracanthus;major;Incerti_ordinis;Machaeracanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Delaware;Delaware limestone;North America;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Machaeracanthus;major;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Delaware;Delaware limestone;North America;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Machaeracanthus;major;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Ohio;;North America;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Machaeracanthus;major;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Lakeside;Delaware limestone;North America;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Machaeracanthus;major;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Delaware;Corniferous limestone;North America;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Machaeracanthus;major;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Le Roy;;North America;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Machaeracanthus;major;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Sandusky;Corniferous limestone;North America;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Machaeracanthus;peracutus;Incerti_ordinis;Machaeracanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Delaware;Delaware limestone;North America;X;X;X;X;N;0;1;1;1;1;0;0;N;Y;NA
+Machaeracanthus;peracutus;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Delaware;Onondaga limestone;North America;X;X;X;X;N;0;1;1;1;1;0;0;N;Y;NA
+Machaeracanthus;peracutus;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;N;Sandusky;Delaware limestone;North America;X;X;X;X;N;0;1;1;1;1;0;0;N;Y;NA
+Machaeracanthus;polonicus;Incerti_ordinis;Machaeracanthidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Podlazie Hill;Winna;Europe;X;X;X;X;N;0;0;1;1;1;0;0;N;Y;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;N;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Delaware;Delaware limestone;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Al Qalibah region;Jawf;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Clanwilliam;Gydo;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Gamka Poort;Gydo;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Damascus;Gydo;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Kosor;Ludlow;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Karstel;Koblenzer Schichten;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Müllersgrube;;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Leyenküppel;Taunusquarzit;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Williamsville;;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Cazenovia;Marcellus shale;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Ohio;;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sp.;Incerti_ordinis;Machaeracanthidae;Y;S - D;Gorstian;427,4;Givetian;382,7;405,05;?;Girard;;Europe;North America;Asia;Africa;X;N/S;0;1;1;1;1;1;1;N;N;NA
+Machaeracanthus;sulcatus;Incerti_ordinis;Machaeracanthidae;N;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Delaware;Delaware limestone;North America;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Machaeracanthus;sulcatus;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Ohio;;North America;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Machaeracanthus;sulcatus;Incerti_ordinis;Machaeracanthidae;Y;Devonian;Eifelian;393,3;Givetian;382,7;388;?;Black Rock;Helderberg;North America;X;X;X;X;N;0;1;1;0;0;0;0;N;Y;NA
+Sinacanthus;boliviensis;Incerti_ordinis;Sinacanthidae;N;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Seripona village;Catavi;South America;X;X;X;X;S;0;1;0;0;0;0;0;N;Y;NA
+Sinacanthus;fancunensis;Incerti_ordinis;Sinacanthidae;N;Silurian;Wenlock;433,4;Wenlock;427,4;430,4;N;Mokunak;Imogantu;Asia;X;X;X;X;N;0;1;0;0;0;0;0;N;Y;NA
+Tetanopsyrus;breviacanthias;Incerti_ordinis;Tetanopsyridae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;N;NA
+Tetanopsyrus;lindoei;Incerti_ordinis;Tetanopsyridae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;N;NA
+Nerepisacanthus;denisoni;Ischnacanthiformes;Acritolepidae?;N;Silurian;Telychian;438,5;Pridoli;419,2;428,85;N;Cunningsham Brook;Jones Creek;North America;X;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Nerepisacanthus;denisoni;Ischnacanthiformes;Acritolepidae?;Y;Silurian;Telychian;438,5;Pridoli;419,2;428,85;N;Cunningham Creek;Cunningham Creek;North America;X;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Nerepisacanthus;denisoni;Ischnacanthiformes;Acritolepidae?;Y;Silurian;Telychian;438,5;Pridoli;419,2;428,85;N;Ridgemount Quarries;Bertie;North America;X;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Teamasacanthus;erroli;Ischnacanthiformes;Incertae_familiae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Murumbidgee river;Majurgong;Australia and Oceania;X;X;X;X;S;0;1;1;0;0;0;0;N;N;NA
+Trundlelepis;cervicostulata;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;The Troffs railway station;Trundle Beds;Australia and Oceania;Asia;X;X;X;N/S;0;1;1;0;0;0;0;Y;N;NA
+Trundlelepis;cervicostulata;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;Trang Xa;Bac Bun;Australia and Oceania;Asia;X;X;X;N/S;0;1;1;0;0;0;0;Y;N;NA
+Xylacanthus;grandis;Ischnacanthiformes;Incertae_familiae;N;Devonian;Pragian;410,8;Pragian;407,6;409,2;N;Vestspitsbergen;Kapp Kjeldsen;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Xylacanthus;grandis;Ischnacanthiformes;Incertae_familiae;Y;Devonian;Pragian;410,8;Pragian;407,6;409,2;N;Reinsdyrflya;Kapp Kjeldsen;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Xylacanthus;kenstewarti;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Homerian;430,5;Gorstian;425,6;428,05;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;N;NA
+Acanthopora;transitans;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Matusevich river;Severnaya Zemlya;Asia;X;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Acanthopora;transitans;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Ushakov river;Severnaya Zemlya;Asia;X;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Arcticacanthus;bicostatus;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Podemnaya river;Severnaya Zemlya;Asia;X;X;X;X;N;1;1;1;0;0;0;0;Y;N;NA
+Arenaceacanthus;arcuatacanalis;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Sheinwoodian;433,4;Pridoli;419,2;426,3;N;Ledai?179 borehole;Vievis;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Arenaceacanthus;arcuatacanalis;Ischnacanthiformes;Ischnacanthidae;Y;Silurian;Sheinwoodian;433,4;Pridoli;419,2;426,3;N;G?luva-99 borehole;Verkne;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Arenaceacanthus;arcuatacanalis;Ischnacanthiformes;Ischnacanthidae;Y;Silurian;Sheinwoodian;433,4;Pridoli;419,2;426,3;N;Kurtuvenai-162 borehole;Ventspils;Europe;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Atopacanthus;ambrockensis;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Stone quarry Köster;Brandenberg-Schichten;Europe;X;X;X;X;N;1;1;0;0;0;0;0;N;N;NA
+Atopacanthus;dentatus;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Forks of Eighteen Mile Creek;West Falls;North America;X;X;X;X;N;0;0;0;1;1;1;1;N;N;NA
+Atopacanthus;dentatus;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Morse Creek;Genesee;North America;X;X;X;X;N;0;0;0;1;1;1;1;N;N;NA
+Atopacanthus;dentatus;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Eighteen Mile Creek;Genesee;North America;X;X;X;X;N;0;0;0;1;1;1;1;N;N;NA
+Atopacanthus;juvai;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Famennian;372,2;Famennian;358,9;365,55;N;Chahriseh;Bahram;Asia;X;X;X;X;N;0;0;0;1;1;0;0;N;N;NA
+Atopacanthus;peculiaris;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Franklin;Onondaga;North America;X;X;X;X;N;0;0;1;1;1;0;0;N;N;NA
+Atopacanthus;sp.;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Wijdefjord;Middle Old Red Sandstone;Europe;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Bracteatacanthus;assiduus;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Nida?44 borehole;Jura;Europe;X;X;X;X;N;0;0;1;1;1;0;0;Y;N;NA
+Cacheacanthus;utahensis;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Cottonwood Canyon;Water Canyon;North America;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Cacheacanthus;utahensis;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Blacksmith's Fork;Water Canyon;North America;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Ectopacanthus;cristiformis;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;N;Wijdefjord;Grey Hoek;Europe;X;X;X;X;N;1;1;1;0;0;0;0;Y;N;NA
+Ectopacanthus;flabellatus;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Emsian;407,6;Eifelian;387,7;397,65;N;Ventspils-3 borehole;Rezekne horizon;Europe;X;X;X;X;N;1;1;0;0;0;0;0;Y;N;NA
+Ectopacanthus;pusillus;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Palanga-318 core;Stoniskiai;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Ectopacanthus;pusillus;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Lygumai-45 core;Stoniskiai;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Erymnacanthus;clivus;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;N;NA
+Euryacanthus;rugosus;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;N;NA
+Gomphonchus;abruptus;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Velikaya River section;Eptarma;Europe;X;X;X;X;N;1;1;0;0;0;0;0;Y;N;NA
+Gomphonchus;abruptus;Ischnacanthiformes;Ischnacanthidae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Indiga-379 borehole;Eptarma;Europe;X;X;X;X;N;1;1;0;0;0;0;0;Y;N;NA
+Gomphonchus;boekschoteni;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Oosterhaule;East Baltic-derived erratic boulders;Europe;X;X;X;X;N;0;1;1;1;0;0;0;Y;N;NA
+Gomphonchus;longiformis;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Gorstian;427,4;Ludfordian;423;425,2;N;Rauhe Berge;Beyrichienkalk;Europe;X;X;X;X;N;0;0;1;0;0;0;0;Y;N;NA
+Gomphonchus;mediocostatus;Ischnacanthiformes;Ischnacanthidae;N;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Inostantzev Bay;Reliktovoe;Europe;Asia;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Gomphonchus;mediocostatus;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Oosterhaule;East Baltic-derived erratic boulders;Europe;Asia;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Gomphonchus;mediocostatus;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;G?luva-99 borehole;Jura;Europe;Asia;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Gomphonchus;minicostatus;Ischnacanthiformes;Ischnacanthidae;N;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Indiga-379 borehole;Eptarma;Europe;X;X;X;X;N;1;1;1;0;0;0;0;Y;N;NA
+Gomphonchus;minicostatus;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Kozhym River section;Ovinparma;Europe;X;X;X;X;N;1;1;1;0;0;0;0;Y;N;NA
+Gomphonchus;minicostatus;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Olenya-6 borehole;;Europe;X;X;X;X;N;1;1;1;0;0;0;0;Y;N;NA
+Gomphonchus;nordicus;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Pioneer Island;Krasnaya Bukhta;Asia;X;X;X;X;N;0;0;1;1;0;0;0;Y;N;NA
+Gomphonchus;pluriformis;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Lochkovian;419,2;Emsian;393,3;406,25;N;Seripona village;Catavi;South America;X;X;X;X;S;0;1;0;0;0;0;0;N;N;NA
+Gomphonchus;rhomboidalis;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Gorstian;427,4;Ludfordian;423;425,2;N;Rauhe Berge;Beyrichienkalk;Europe;X;X;X;X;N;0;0;1;0;0;0;0;Y;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;N;S - D;Pridoli;423;Emsian;393,3;408,15;N;Torun;Beyrichienkalk;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Pionerski;Beyrichienkalk;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Zelenogradsk;Beyrichienkalk;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Kranepuhl;Beyrichienkalk;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Geschiebe;Beyrichienkalk;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Central New South Wales;Cookeys Plains;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Arisaig;Stonehouse;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Ledai?179 borehole;Tilze;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Ledai?179 borehole;Stoniskiai;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Kunkojai-12 core;Jura;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;The Halls Grav and Monument localities;Chester B(j)erg;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Oosterhaule;East Baltic-derived erratic boulders;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sandelensis;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Emsian;393,3;408,15;N;Tareya River;Uryun beds;Europe;Australia and Oceania;North America;Asia;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchus;sp.;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Rügen;Beyrichienkalk;Europe;X;X;X;X;N;0;0;1;0;0;0;0;N;N;NA
+Gomphonchus;sp.;Ischnacanthiformes;Ischnacanthidae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Berlin;Beyrichienkalk;Europe;X;X;X;X;N;0;0;1;0;0;0;0;N;N;NA
+Gomphonchus;tauragensis;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Baltupenai-83 core;Saunoriai Substage;Europe;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
+Grenfellacanthus;zerinae;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Famennian;372,2;Famennian;358,9;365,55;N;Grenfell;Hunter Siltstone;Australia and Oceania;X;X;X;X;S;1;0;0;0;0;0;0;N;N;NA
+Ischnacanthus ;gracilis;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Forfar ;Lower Old Red Sandstone;Europe;North America;X;X;X;N;1;0;0;1;0;0;0;N;N;NA
+Ischnacanthus ;gracilis;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Turin Hill;Dundee Flagstone;Europe;North America;X;X;X;N;1;0;0;1;0;0;0;N;N;NA
+Ischnacanthus ;gracilis;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tillywhandland quarry;Dundee Flagstone;Europe;North America;X;X;X;N;1;0;0;1;0;0;0;N;N;NA
+Ischnacanthus ;gracilis;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Tealing;Dundee Flagstone;Europe;North America;X;X;X;N;1;0;0;1;0;0;0;N;N;NA
+Ischnacanthus ;gracilis;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;Europe;North America;X;X;X;N;1;0;0;1;0;0;0;N;N;NA
+Ischnacanthus;sp.;Ischnacanthiformes;Ischnacanthidae;N;S - D;Pridoli;423;Lochkovian;410,8;416,9;Y;Man Brook;Old Red Sandstone;Europe;North America;X;X;X;N;1;1;0;1;0;0;0;N;N;NA
+Ischnacanthus;sp.;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;Y;Shatterford;Old Red Sandstone;Europe;North America;X;X;X;N;1;1;0;1;0;0;0;N;N;NA
+Ischnacanthus;sp.;Ischnacanthiformes;Ischnacanthidae;N;S - D;Eifelian;393,3;Givetian;388;402,85;Y;Achanarras;Middle Old Red Sandstone;Europe;X;X;X;X;N;1;1;0;1;0;0;0;N;N;NA
+Ischnacanthus;sp.;Ischnacanthiformes;Ischnacanthidae;Y;S - D;Pridoli;423;Givetian;382,7;402,85;Y;MOTH locality;Delorme/Road River;Europe;North America;X;X;X;N;1;1;0;1;0;0;0;N;N;NA
+Ischnacanthus;wickani;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Old Paper Mill;Temeside Mudstone;Europe;X;X;X;X;N;1;1;0;0;0;0;0;N;N;NA
+Ischnacanthus;wickani;Ischnacanthiformes;Ischnacanthidae;Y;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Man Brook;Old Red Sandstone;Europe;X;X;X;X;N;1;1;0;0;0;0;0;N;N;NA
+Lietuvacanthus;fossulatus;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Sv?dasai-252 core;Stoniskiai;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Lietuvacanthus;fossulatus;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Palanga-318 core;Stoniskiai;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Lietuvacanthus;fossulatus;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Ledai?179 borehole;Stoniskiai;Europe;X;X;X;X;N;0;0;0;1;0;0;0;Y;N;NA
+Persacanthus;kermanensis;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;N;Gisement de Bidou 1;;Asia;X;X;X;X;N;1;0;0;0;0;0;0;N;N;NA
+Persacanthus;simpsonensis;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Frasnian;382,7;Famennian;358,9;370,8;N;Simpson Park Range;Red Hill Beds;North America;X;X;X;X;N;0;0;1;1;1;0;0;N;N;NA
+Persacanthus;sp.;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;?;River Pechora Tansy;Timan horizon;North America;Asia;X;X;X;N;0;0;0;0;1;1;0;N;N;NA
+Persacanthus;sp.;Ischnacanthiformes;Ischnacanthidae;Y;Devonian;Frasnian;382,7;Frasnian;372,2;377,45;?;Leduc;Ireton shale;North America;Asia;X;X;X;N;0;0;0;0;1;1;0;N;N;NA
+Plectrodus;hamatus;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Gorstian;427,4;Ludfordian;423;425,2;N;Rauhe Berge;Beyrichienkalk;Europe;X;X;X;X;N;0;0;1;0;0;0;0;N;N;NA
+Plectrodus;mirabilis;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Clun;Ludlow Bone Bed;Europe;X;X;X;X;N;0;1;1;0;0;0;0;N;N;NA
+Plectrodus;sp.;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Pridoli;423;Lochkovian;410,8;416,9;N;Besom Farm Quarry;Lower Old Red Sandstone;Europe;X;X;X;X;N;1;0;1;0;0;0;0;N;N;NA
+Plectrodus;sp.;Ischnacanthiformes;Ischnacanthidae;Y;Silurian;Pridoli;423;Lochkovian;410,8;416,9;N;Solniki;Beyrichienkalk;Europe;X;X;X;X;N;1;0;1;0;0;0;0;N;N;NA
+Rockycampacanthus;milesi;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;N;Rocky Camp hill quarry;Murrindal Limestone;Australia and Oceania;X;X;X;X;S;0;0;0;1;1;0;0;N;N;NA
+Rohonilepis;breviornatus;Ischnacanthiformes;Ischnacanthidae;N;Silurian;Gorstian;427,4;Pridoli;419,2;423,3;N;Kurtuvenai-162 borehole;Ventspils;Europe;X;X;X;X;N;0;0;1;1;1;0;0;Y;N;NA
+Rohonilepis;breviornatus;Ischnacanthiformes;Ischnacanthidae;Y;Silurian;Gorstian;427,4;Pridoli;419,2;423,3;N;West Lithuania;Jura;Europe;X;X;X;X;N;0;0;1;1;1;0;0;Y;N;NA
+Tricuspicanthus;gannitus;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;N;NA
+Tricuspicanthus;pisciculus;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;MOTH locality;Delorme/Road River;North America;X;X;X;X;N;0;0;0;1;0;0;0;N;N;NA
+Youngacanthus;gracilis;Ischnacanthiformes;Ischnacanthidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Quijing district;Cuifengshan;Asia;X;X;X;X;N;0;1;0;0;0;0;0;N;N;NA
+Gomphonchoporus;hoppei;Ischnacanthiformes;Poracanthodidae;N;S - D;Gorstian;427,4;Lochkovian;410,8;419,1;N;Central New South Wales;Cookeys Plains;Europe;Australia and Oceania;Asia;X;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchoporus;hoppei;Ischnacanthiformes;Poracanthodidae;Y;S - D;Gorstian;427,4;Lochkovian;410,8;419,1;N;Gdansk;Beyrichienkalk;Europe;Australia and Oceania;Asia;X;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchoporus;hoppei;Ischnacanthiformes;Poracanthodidae;Y;S - D;Gorstian;427,4;Lochkovian;410,8;419,1;N;Rauhe Berge;Beyrichienkalk;Europe;Australia and Oceania;Asia;X;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchoporus;hoppei;Ischnacanthiformes;Poracanthodidae;Y;S - D;Gorstian;427,4;Lochkovian;410,8;419,1;N;Inostantzev Bay;Reliktovoe;Europe;Australia and Oceania;Asia;X;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Gomphonchoporus;hoppei;Ischnacanthiformes;Poracanthodidae;Y;S - D;Gorstian;427,4;Lochkovian;410,8;419,1;N;Kunkojai-12 core;Jura;Europe;Australia and Oceania;Asia;X;X;N/S;0;1;1;1;1;1;0;N;N;NA
+Machaeraporus;stonehousensis;Ischnacanthiformes;Poracanthodidae;N;Silurian;Pridoli;423;Pridoli;419,2;421,1;N;Arisaig;Stonehouse;North America;X;X;X;X;N;0;0;1;0;0;0;0;Y;N;NA
+Poracanthodes;asper;Ischnacanthiformes;Poracanthodidae;N;Silurian;Gorstian;427,4;Ludfordian;423;425,2;N;Rauhe Berge;Beyrichienkalk;Europe;X;X;X;X;N;0;0;1;0;0;0;0;Y;N;NA
+Poracanthodes;canadensis;Ischnacanthiformes;Poracanthodidae;N;Silurian;Gorstian;427,4;Pridoli;419,2;423,3;N;Cornwallis Island;Cape Phillips;North America;X;X;X;X;N;0;0;0;0;0;1;0;Y;N;NA
+Poracanthodes;exaratus;Ischnacanthiformes;Poracanthodidae;N;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;Tareya River;Daxan layers;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Poracanthodes;exaratus;Ischnacanthiformes;Poracanthodidae;Y;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;Tareya River;Uryun beds;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Poracanthodes;exaratus;Ischnacanthiformes;Poracanthodidae;Y;Devonian;Lochkovian;419,2;Pragian;407,6;413,4;N;Tareya River;Tolbat layers;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Poracanthodes;punctatus;Ischnacanthiformes;Poracanthodidae;N;Silurian;Gorstian;427,4;Lochkovian;410,8;419,1;Y;Solniki;Beyrichienkalk;Asia;North America;Europe;X;X;N;1;1;1;1;1;1;0;N;N;NA
+Poracanthodes;punctatus;Ischnacanthiformes;Poracanthodidae;N;Devonian;Eifelian;393,3;Eifelian;387,7;390,5;Y;Le Roy;Onondaga limestone;North America;X;X;X;X;N;1;1;1;1;1;1;0;N;N;NA
+Poracanthodes;punctatus;Ischnacanthiformes;Poracanthodidae;Y;Silurian;Gorstian;427,4;Eifelian;387,7;407,55;Y;Podczele;Beyrichienkalk;Asia;North America;Europe;X;X;N;1;1;1;1;1;1;0;N;N;NA
+Poracanthodes;punctatus;Ischnacanthiformes;Poracanthodidae;Y;Silurian;Gorstian;427,4;Eifelian;387,7;407,55;Y;Rauhe Berge;Beyrichienkalk;Asia;North America;Europe;X;X;N;1;1;1;1;1;1;0;N;N;NA
+Poracanthodes;punctatus;Ischnacanthiformes;Poracanthodidae;Y;Silurian;Gorstian;427,4;Eifelian;387,7;407,55;Y;Pete Hanson Creek;Roberts Mountains;Asia;North America;Europe;X;X;N;1;1;1;1;1;1;0;N;N;NA
+Poracanthodes;punctatus;Ischnacanthiformes;Poracanthodidae;Y;Silurian;Gorstian;427,4;Eifelian;387,7;407,55;Y;Spokojnaya river;Severnaya Zemlya;Asia;North America;Europe;X;X;N;1;1;1;1;1;1;0;N;N;NA
+Poracanthodes;punctatus;Ischnacanthiformes;Poracanthodidae;Y;Silurian;Gorstian;427,4;Eifelian;387,7;407,55;Y;Cornwallis Island;Cape Phillips;Asia;North America;Europe;X;X;N;1;1;1;1;1;1;0;N;N;NA
+Poracanthodes;punctatus;Ischnacanthiformes;Poracanthodidae;Y;Silurian;Gorstian;427,4;Eifelian;387,7;407,55;Y;Staciunai-8 core;Tilze;Asia;North America;Europe;X;X;N;1;1;1;1;1;1;0;N;N;NA
+Poracanthodes;punctatus;Ischnacanthiformes;Poracanthodidae;Y;Silurian;Gorstian;427,4;Eifelian;387,7;407,55;Y;Dvoriki-2 borehole;Stoniskiai;Asia;North America;Europe;X;X;N;1;1;1;1;1;1;0;N;N;NA
+Poracanthodes;punctatus;Ischnacanthiformes;Poracanthodidae;Y;Silurian;Gorstian;427,4;Eifelian;387,7;407,55;Y;The Halls Grav and Monument localities;Chester B(j)erg;Asia;North America;Europe;X;X;N;1;1;1;1;1;1;0;N;N;NA
+Poracanthodes;punctatus;Ischnacanthiformes;Poracanthodidae;Y;Silurian;Gorstian;427,4;Eifelian;387,7;407,55;Y;Oosterhaule;East Baltic-derived erratic boulders;Asia;North America;Europe;X;X;N;1;1;1;1;1;1;0;N;N;NA
+Poracanthodes;qujingensis;Ischnacanthiformes;Poracanthodidae;N;Silurian;Gorstian;427,4;Ludfordian;423;425,2;N;Xiaoxing Reservoir;Miaogao;Australia and Oceania;Asia;X;X;X;N/S;0;1;0;1;1;0;0;N;N;NA
+Poracanthodes;qujingensis;Ischnacanthiformes;Poracanthodidae;Y;Silurian;Gorstian;427,4;Ludfordian;423;425,2;N;The Grampians;Silverband;Australia and Oceania;Asia;X;X;X;N/S;0;1;0;1;1;0;0;N;N;NA
+Poracanthodes;sp.;Ischnacanthiformes;Poracanthodidae;N;S - D;Ludfordian;425,6;Pridoli;419,2;422,4;N;Bey.36;Beyrichienkalk;Europe;Asia;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Poracanthodes;sp.;Ischnacanthiformes;Poracanthodidae;Y;S - D;Ludfordian;425,6;Pridoli;419,2;422,4;N;Spokojnaya river;Severnaya Zemlya;Europe;Asia;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Poracanthodes;subporosus;Ischnacanthiformes;Poracanthodidae;N;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Kunkojai-12 core;Lower Tilze Subformation;Europe;X;X;X;X;N;0;0;1;1;1;0;0;Y;N;NA
+Poracanthodes;subporosus;Ischnacanthiformes;Poracanthodidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Mazosios Lapes-106 core;Lower Tilze Subformation;Europe;X;X;X;X;N;0;0;1;1;1;0;0;Y;N;NA
+Poracanthodes;subporosus;Ischnacanthiformes;Poracanthodidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Belarus;Domatchevo and Dubitsa?;Europe;X;X;X;X;N;0;0;1;1;1;0;0;Y;N;NA
+Poracanthodes;subporosus;Ischnacanthiformes;Poracanthodidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;East Baltic;Jura;Europe;X;X;X;X;N;0;0;1;1;1;0;0;Y;N;NA
+Radioporacanthodes;liujingensis;Ischnacanthiformes;Poracanthodidae;N;Devonian;Pragian;410,8;Emsian;393,3;402,05;N;Liujingzhen;Nakaoling and Yukiang;Asia;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Radioporacanthodes;liujingensis;Ischnacanthiformes;Poracanthodidae;Y;Devonian;Pragian;410,8;Emsian;393,3;402,05;N;Zinzilban Gorge;Zinzilban section;Asia;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Radioporacanthodes;liujingensis;Ischnacanthiformes;Poracanthodidae;Y;Devonian;Pragian;410,8;Emsian;393,3;402,05;N;Longmenshan section;Ganxi;Asia;X;X;X;X;N;0;1;1;1;1;0;0;Y;N;NA
+Radioporacanthodes;menneri;Ischnacanthiformes;Poracanthodidae;N;Devonian;Lochkovian;419,2;Lochkovian;410,8;415;N;Pod'yomnaya River;Severnaya Zemlya;Asia;X;X;X;X;N;1;1;1;0;0;0;0;N;N;NA
+Radioporacanthodes;porosus;Ischnacanthiformes;Poracanthodidae;N;S - D;Gorstian;427,4;Lochkovian;410,8;419,1;Y;Central New South Wales;Cookeys Plains;Australia and Oceania;Europe;North America;X;X;N/S;0;0;1;1;1;1;0;Y;N;NA
+Radioporacanthodes;porosus;Ischnacanthiformes;Poracanthodidae;N;Devonian;Emsian;407,6;Emsian;393,3;400,45;Y;;;Europe;X;X;X;X;N;0;0;1;1;1;1;0;Y;N;NA
+Radioporacanthodes;porosus;Ischnacanthiformes;Poracanthodidae;Y;S - D;Gorstian;427,4;Emsian;393,3;410,35;Y;Mazosios Lapes-106 core;Tilze;Australia and Oceania;Europe;North America;X;X;N/S;0;0;1;1;1;1;0;Y;N;NA
+Radioporacanthodes;porosus;Ischnacanthiformes;Poracanthodidae;Y;S - D;Gorstian;427,4;Emsian;393,3;410,35;Y;The Halls Grav and Monument localities;Chester B(j)erg;Australia and Oceania;Europe;North America;X;X;N/S;0;0;1;1;1;1;0;Y;N;NA
+Taimyrolepis;composita;Ischnacanthiformes;Poracanthodidae;N;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Inostantzev Bay;Reliktovoe;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Taimyrolepis;composita;Ischnacanthiformes;Poracanthodidae;Y;S - D;Pridoli;423;Lochkovian;410,8;416,9;N;Tareya River;Uryun beds;Asia;X;X;X;X;N;0;1;1;0;0;0;0;Y;N;NA
+Lenacanthus;priscus;Tchunacanthida;Lenacanthidae;N;Silurian;Aeronian;440,8;Aeronian;438,5;439,65;N;S Yakutia;Lower Utakan Subformation;Asia;X;X;X;X;N;0;0;1;0;0;0;0;Y;N;NA
+Tchunacanthus;obruchevi;Tchunacanthida;Tchunacanthidae;N;Silurian;Telychian;438,5;Telychian;433,4;435,95;N;Balturino district;Upper Balturino Subformation;Asia;X;X;X;X;N;0;1;1;1;0;0;0;Y;N;NA
+Tchunacanthus;obruchevi;Tchunacanthida;Tchunacanthidae;Y;Silurian;Telychian;438,5;Telychian;433,4;435,95;N;Tchagartai mountain ridge district;Khutsyn-Bulak Beds;Asia;X;X;X;X;N;0;1;1;1;0;0;0;Y;N;NA
+Tchunacanthus;sp.;Tchunacanthida;Tchunacanthidae;N;Silurian;Aeronian;440,8;Aeronian;438,5;439,65;N;Tuva;Kyzyl-Tchizaa;Asia;X;X;X;X;N;NA;NA;NA;NA;NA;NA;NA;Y;N;NA
