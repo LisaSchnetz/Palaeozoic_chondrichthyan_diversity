@@ -21,7 +21,7 @@ acantho_data <- read.csv2("./data/Acanthodian_input_R_sampling.csv")
 
 shark_data <- rbind(Palshark_data, acantho_data)
 
-intervals <- read.csv2("./data/iNEXTintervals.csv")
+intervals <- read.csv2("./data/Intervals.csv")
 
 # Subset data to continents
 shark_NA <- subset(shark_data, CONTINENT.1=="North America"|CONTINENT.2=="North America"|

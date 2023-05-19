@@ -22,7 +22,7 @@ library(deeptime)
 shark_data <- read.csv2("./data/Total_chondrichthyes_input_groups.csv")
 
 
-intervals <- read.csv2("./data/iNEXTintervals.csv")
+intervals <- read.csv2("./data/Intervals.csv")
 
 
 #######################################################################

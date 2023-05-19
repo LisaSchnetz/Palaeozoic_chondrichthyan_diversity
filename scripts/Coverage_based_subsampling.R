@@ -16,22 +16,19 @@
 install.packages("ggplot2")
 install.packages("tidyverse")
 install.packages("deeptime")
-install.packages("dplyr")
-install.packages("devtools")
 install.packages("iNEXT")
-
 install.packages("directlabels")
-install.packages("pbmcapply")
+install.packages('remotes')
 
-
-library(devtools)
 library(iNEXT)
 library(ggplot2)
-library(dplyr)
 library(tidyverse)
 library(deeptime)
-library(pbmcapply)
 library(directlabels)
+library(remotes)
+
+#Package version of iNEXT that was used for the below analyses
+remotes::install_version("iNEXT", version = "2.0.20")
 
 # First make sure that your environment is clean so that you don't mix up data
 rm(list=ls()) 
@@ -46,7 +43,7 @@ Acanthodians <-read.csv2("./data/Acanthodian_input_R_sampling.csv")
 # as they would lead to error messages in any of the iNEXT analyses. Due to the limited number of occurrences in those stages, 
 # they do not add significant information to the diversity analyses and can be removed.
 
-intervals <- read.csv2("./data/iNEXTintervals2.csv")
+intervals <- read.csv2("./data/iNEXTintervals.csv")
 
 
 ### Combine the data for total chondrichthyan diversity and remove unnecessary columns
@@ -57,7 +54,6 @@ genus_data <- subset(allsharks, select=c(GENUS, SPECIES, EARLIEST, LATEST, MAX_D
 
 
 glimpse(genus_data)
-
 
 #############################################################################
 ##                      Abundance analyses                                  ##
@@ -210,10 +206,10 @@ for(i in 1:length(cov_rare)) {
 
 cov_rare <- do.call(rbind, cov_rare) %>% as_tibble() #convert to tibble for ease of plotting
 
-cov_rare[which(cov_rare$stage_int %in% intervals3$interval_name[1:8]), "Period"] <- "Silurian"
-cov_rare[which(cov_rare$stage_int %in% intervals3$interval_name[9:15]), "Period"] <- "Devonian"
-cov_rare[which(cov_rare$stage_int %in% intervals3$interval_name[16:22]), "Period"] <- "Carboniferous"
-cov_rare[which(cov_rare$stage_int %in% intervals3$interval_name[23:31]), "Period"] <- "Permian"
+cov_rare[which(cov_rare$stage_int %in% intervals$interval_name_abb[1:8]), "Period"] <- "Silurian"
+cov_rare[which(cov_rare$stage_int %in% intervals$interval_name_abb[9:15]), "Period"] <- "Devonian"
+cov_rare[which(cov_rare$stage_int %in% intervals$interval_name_abb[16:22]), "Period"] <- "Carboniferous"
+cov_rare[which(cov_rare$stage_int %in% intervals$interval_name_abb[23:31]), "Period"] <- "Permian"
 
 
 # Plot data. We will divide data into two separate plots to make visualisation easier:

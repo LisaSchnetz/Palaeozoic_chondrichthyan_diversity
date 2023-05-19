@@ -36,7 +36,7 @@ midpoints <-c(462.85,455.7,449.1,444.5,442.3,439.65,435.95,431.95,428.95,426.5,4
 shark_data <- read.csv2("./data/Total_chondrichthyes_input_groups.csv")
 
 
-intervals <- read.csv2("./data/iNEXTintervals.csv")
+intervals <- read.csv2("./data/Intervals.csv")
 
 
 ######################################################
