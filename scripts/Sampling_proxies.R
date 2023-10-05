@@ -31,7 +31,7 @@ allsharks <- rbind(shark_data, Acanthodians)
 
 intervals <- read.csv2("./data/iNEXTintervals.csv")
 
-glimpse(allsharks)
+ glimpse(allsharks)
 
 
 #Count your data:
@@ -83,6 +83,28 @@ proxy_counts <- rename(proxy_counts,
 ## Finally, convert all zero's to NAs for plotting 
 proxy_counts[proxy_counts == 0] <- NA 
 
+#######################################################################
+#             Alpha diversity analysis total chondrichthyans         #
+#######################################################################
+
+
+## The script used from here on is mainly taken from local_richness depository from Dr. Emma Dunne. https://github.com/emmadunne/local_richness.git
+## The method is based on the paper by Close et al. (2019).
+
+## First count the number of taxa per locality using the table() function
+
+freq_table <- as.data.frame(table(shark_data[, c('COLLECTION','GENUS')]$COLLECTION))
+names(freq_table)[1] <- "COLLECTION" 
+head(freq_table) 
+
+## Then we select some additional information from the original dataset
+locality_info <- select(shark_data, COLLECTION,  
+                        EARLIEST, MID.POINT) %>% distinct(COLLECTION, .keep_all = TRUE) %>% na.omit()
+
+
+## Lastly, we'll add it to the frequency table  before plotting
+alpha_data <- left_join(freq_table, locality_info, by = "COLLECTION")
+
 
 #Plot the data 
 
@@ -120,6 +142,9 @@ raw_plot <- ggplot(data=proxy_counts, aes(x=mid_ma)) +
   
   geom_line(data=proxy_counts, aes(y=count_taxa, colour="Genera"),size=0.5) +
   geom_point(data=proxy_counts, aes(y=count_taxa, colour="Genera"),size=2) +
+  
+  geom_point(data = alpha_data, aes(MID.POINT, Freq), colour = adjustcolor("deeppink4", alpha.f = 0.4), size = 3) + 
+  mytheme_alpha +
  
    # set up axes, themes, margins, etc.:
   theme_classic()+
@@ -137,7 +162,7 @@ Proxyplot <- gggeo_scale(Proxyplot, dat = "stages", height = unit(1.5, "lines"),
 
 ggsave(plot = Proxyplot,
        width = 16, height = 13, dpi = 600, units = "cm", 
-       filename = "./plots/sampling_proxies.pdf", useDingbats=FALSE)
+       filename = "./plots/sampling_proxies_021023.pdf", useDingbats=FALSE)
 
 
 # Lastly, perform a simple regression analysis to check correlation

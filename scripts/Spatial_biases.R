@@ -13,7 +13,8 @@ library(tidyverse)
 library(dplyr)
 library(ggplot2)
 library(deeptime)
-
+library(ggpubr)
+library(viridis)
 
 # Read in the datasets:
 Palshark_data <- read.csv2("./data/Chondrichthyes_input_R_sampling.csv")
@@ -505,4 +506,92 @@ squaresplot_cont <- ggplot() +
 #add time scale to your plot
 squaresplot_cont_scale <- gggeo_scale(squaresplot_cont, dat = "periods", height = unit(1.5, "lines"),  size = 4, abbrv = FALSE)
 squaresplot_cont_scale <- gggeo_scale(squaresplot_cont_scale, dat = "stages", height = unit(1.5, "lines"),  size = 3, abbrv = TRUE)
+
+
+#######################
+#
+#
+###### Plot Palaeocoordinates ##
+#
+#
+#################
+library(rgplates)
+library(chronosphere)
+
+# Get offline palaeomodel data
+
+#Meredith et al. model
+merdith2021<- chronosphere::fetch(src="EarthByte", ser="MERDITH2021")
+
+shark_data <- read.csv("./data/Total_chondrichthyes_coordinates_new.csv")
+
+collections <- unique(shark_data[, c("COLLECTION", "Longitude", "Latitude",  "MID.POINT")])
+collections <- na.omit(collections) 
+
+# Merdith et al one
+paleoCoords2 <- rgplates::reconstruct(collections[, c("Longitude","Latitude")], age=collections$MID.POINT, model=merdith2021, enumerate=FALSE)
+colnames(paleoCoords2) <- c("plng", "plat")
+
+colls2 <- cbind(collections, paleoCoords2)
+
+shark_data_merdith <- merge(shark_data, colls2, by=c("COLLECTION", "Longitude", "Latitude", "MID.POINT"))
+
+## Save data as csv file
+#write_csv(shark_data_merdith, "./data/merdith_coord_021023.csv")
+
+coord_data <- read.csv("./data/merdith_coord_021023.csv")
+
+## Plot coordinates on simple plot
+# Count the number of taxa per collection (i.e. their frequency):
+taxa_freqs_2 <- count(coord_data, COLLECTION)
+
+taxa_freqs <- as.data.frame(table(coord_data[, c('COLLECTION','GENUS')]$COLLECTION))
+names(taxa_freqs)[1] <- "COLLECTION" 
+head(taxa_freqs) 
+
+
+
+
+## Subset lat_data to only the columns we need:
+coord_data <- coord_data%>% 
+  select(COLLECTION, plat, plng, MID.POINT) %>% 
+  distinct() %>% na.omit()
+
+## Add add the frequency information:
+coord_data <- left_join(taxa_freqs, coord_data, by = "COLLECTION")
+
+## Before we plot, let's order the frequencies and remove any NAs that have crept in:
+coord_data <- coord_data %>% arrange(Freq) %>% na.omit()
+
+
+## Set up our ggplot layers
+lat_plot <- ggplot(data = coord_data, aes(x = MID.POINT, y = plat, colour = Freq)) +
+ # geom_vline(xintercept = int_boundaries, lty = 2, col = "grey90") +
+  geom_hline(yintercept = 0, colour = "grey10") +
+  scale_color_viridis(trans = "log", breaks = c(1, 2, 10, 95), direction = -1, option = "D") + # set the break= to match your richness data
+  scale_y_continuous(labels = function(x) format(x, width = 5), limits = c(-90, 90), breaks = seq(from = -90, to = 90, by = 20)) +
+  scale_x_reverse() + 
+  theme_minimal() + 
+  theme(legend.direction = "vertical", 
+        panel.grid.major.x = element_blank(), 
+        panel.grid.minor.x = element_blank(), panel.grid.minor.y = element_blank(), 
+        axis.title = element_text(size = 12)) +
+  labs(x = "", y = "Paleolatitude (º)") +
+  geom_point(size = 4, alpha = 0.5) # (alpha sets point transparency)
+lat_plot # call to plot window
+
+
+lat_plot_strat <- lat_plot + coord_geo(xlim = c(470, 250), pos = as.list(rep("bottom",2)),
+                                                    dat = list("stages","periods"),
+                                                    height = list(unit(1.5, "lines"),unit(1.5,"lines")), rot = list(0,0), size = list(2.5, 2.5), abbrv = list(TRUE, FALSE))
+
+lat_plot_strat
+
+
+
+
+## Set dimensions and save plot (as pdf)
+ggsave(plot = lat_plot,
+       width = 20, height = 10, dpi = 500, units = "cm", 
+       filename = "./plots/lat_alpha_div.pdf", useDingbats=FALSE)
 
