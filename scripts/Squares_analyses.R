@@ -41,7 +41,7 @@ allsharks <- rbind(shark_data, Acanthodians)
 
 glimpse(allsharks)
 
-intervals <- read.csv2("./data/iNEXTintervals.csv")
+intervals <- read.csv2("./data/Intervals.csv")
 
 
 ## First: Generate a list of frequencies by stage by using and trimming the 'count' function in dplyr
@@ -105,7 +105,6 @@ squaresplot <- ggplot() +
   
   # below adds the squares estimates to the plot
   geom_line(data=to_plot, aes(x = midpoints, y = squares_list,colour="cyan4"), size=1) +
-  geom_point(data=to_plot, aes(x = midpoints, y = squares_list,colour="cyan4"),size=4.5) +
   
   # set up axes, themes, margins, etc.:
   scale_colour_manual(values ="cyan4") +
@@ -113,7 +112,7 @@ squaresplot <- ggplot() +
   labs(x = "Time (Ma)", y = "Squares diversity") +
   scale_y_continuous(expand=c(0,0), breaks = c(0,25,50,75,100,125,150), limits = c(0, 150)) +
   theme_classic()+
-  theme(legend.position="top",legend.background = element_rect(size=0.5))+
+  theme(legend.position="none",legend.background = element_rect(size=0.5))+
   theme(plot.margin=margin(0.5,0.75,0.5,0.5,"cm"))
 
 #add time scale to your plot

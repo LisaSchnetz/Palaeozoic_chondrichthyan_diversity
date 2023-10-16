@@ -29,10 +29,9 @@ shark_data <- read.csv2("./data/Chondrichthyes_input_R_sampling.csv")
 Acanthodians <-read.csv2("./data/Acanthodian_input_R_sampling.csv")
 allsharks <- rbind(shark_data, Acanthodians)
 
-intervals <- read.csv2("./data/iNEXTintervals.csv")
+intervals <- read.csv2("./data/Intervals.csv")
 
  glimpse(allsharks)
-
 
 #Count your data:
 
