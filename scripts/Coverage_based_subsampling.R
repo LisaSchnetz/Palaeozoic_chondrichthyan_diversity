@@ -4,7 +4,7 @@
 #                                                  #
 ####################################################
 #                                                  #
-#         Lisa Schnetz - September 2022            #
+#         Lisa Schnetz - Oktober 2023              #
 #                                                  #
 ####################################################
 
@@ -16,23 +16,18 @@
 install.packages("ggplot2")
 install.packages("tidyverse")
 install.packages("deeptime")
-install.packages("dplyr")
-install.packages("devtools")
 install.packages("iNEXT")
-
 install.packages("directlabels")
 install.packages("pbmcapply")
 
-devtools::install_version("iNEXT", version = "2.0.20")
+install.packages('remotes')
 
-library(devtools)
 library(iNEXT)
 library(ggplot2)
-library(dplyr)
 library(tidyverse)
 library(deeptime)
-library(pbmcapply)
 library(directlabels)
+library(remotes)
 
 # First make sure that your environment is clean so that you don't mix up data
 rm(list=ls()) 
@@ -47,7 +42,7 @@ Acanthodians <-read.csv2("./data/Acanthodian_input_R_sampling.csv")
 # as they would lead to error messages in any of the iNEXT analyses. Due to the limited number of occurrences in those stages, 
 # they do not add significant information to the diversity analyses and can be removed.
 
-intervals <- read.csv2("./data/iNEXTintervals2.csv")
+intervals <- read.csv2("./data/iNEXTintervals.csv")
 
 
 ### Combine the data for total chondrichthyan diversity and remove unnecessary columns
@@ -58,7 +53,6 @@ genus_data <- subset(allsharks, select=c(GENUS, SPECIES, EARLIEST, LATEST, MAX_D
 
 
 glimpse(genus_data)
-
 
 #############################################################################
 ##                      Abundance analyses                                  ##
@@ -87,11 +81,12 @@ incidence_data[[1]] # check that it has worked correctly
 # Second: Compute diversity estimates for coverage-based subsampling
 
 ## Create vector of quorum levels to run analysis at 
-quorum_levels <- round(seq(from = 0.3, to = 0.6, by = 0.1), 1)
-quorum_levels <- round(seq(from = 0.5, to = 0.9, by = 0.1), 1)
+#quorum_levels <- round(seq(from = 0.3, to = 0.6, by = 0.1), 1)
+quorum_levels <- round(seq(from = 0.5, to = 0.8, by = 0.1), 1)
 
 
 ## Compute diversity estimate with estimateD()
+## Might show an error when trying for the first time, check that individual quorums are working and try again?
 estD_output <- lapply(1:length(quorum_levels), function(i) { # loop will run over each quorum level set above
   estD_output <- estimateD(incidence_data, datatype="incidence_raw", base="coverage", level=quorum_levels[i]) # main estimateD code - see vignette for more details
   estD_output <- estD_output[estD_output$Order.q == 0, ] # filter to richness (order == 0)
@@ -103,7 +98,6 @@ estD_output <- lapply(1:length(quorum_levels), function(i) { # loop will run ove
 
 # Third: Plot your data
 
-
 # The output from the estimateD() analysis is a list object, so we'll turn it into a dataframe for plotting
 
 plotting_data <- bind_rows(estD_output) 
@@ -112,7 +106,7 @@ plotting_data <- bind_rows(estD_output)
 plotting_data <- plotting_data %>% rename(interval_name = Assemblage) %>% full_join(.,intervals, by = "interval_name") 
 
 ## Filter down the data to only the quorum level(s) you want to plot:
-plotting_data <- filter(plotting_data, quorum_level %in% quorum_levels[1:5])
+##plotting_data <- filter(plotting_data, quorum_level %in% quorum_levels[1:5])
 
 ## Ensure the interval_name and quorum_level columns are being treated as factors to avoid errors while plotting:
 plotting_data$interval_name <- as.factor(plotting_data$interval_name) 
@@ -120,7 +114,7 @@ plotting_data$quorum_level <- as.factor(plotting_data$quorum_level)
 
 
 ## Create a colour gradient if plotting more than one quorum level 
-blue_gradient <- scales::seq_gradient_pal("cyan2", "darkslategrey", "Lab")(seq(0, 1, length.out = 5))
+blue_gradient <- scales::seq_gradient_pal("cyan2", "darkslategrey", "Lab")(seq(0, 1, length.out = 4))
 
 # Start plot
 
@@ -163,20 +157,23 @@ cov_rare_plot <- ggplot(plotting_data, aes(x = MID.POINT, y = qD, ymin = qD.LCL,
   theme_classic()+
   theme(legend.position="top",legend.background = element_rect(size=0.5))+
   theme(plot.margin=margin(0.5,0.75,0.5,0.5,"cm"))+ 
-  scale_x_reverse(expand=c(0,0), limits = c(450, 250), breaks = c(250,300,350,400,450)) +
+  scale_x_reverse(expand=c(0,0), limits = c(467.3, 251.902), breaks = c(250,300,350,400,450)) +
   scale_y_continuous(expand=c(0,0), breaks = c(0,10,30,50,70,90), limits = c(0, 90)) +
   labs(x = "Time (Ma)", y = "Coverage rarified genus richness")
 
 cov_rare_plot # check your plot
 
 # Add a time scale to your plot
-cov_rare_plot <- gggeo_scale(cov_rare_plot, dat = "stages", height = unit(4, "lines"), rot = 90, size = 2.5, abbrv = FALSE)
+cov_rare_plot <- gggeo_scale(cov_rare_plot, dat = "stages", height = unit(4, "lines"), rot = 90, size = 2.5, abbrv = TRUE)
 cov_rare_plot
 
+cov_rare_plot <- gggeo_scale(cov_rare_plot, dat = "periods", height = unit(1.5, "lines"),  size = 4, abbrv = FALSE)
+cov_rare_plot <- gggeo_scale(cov_rare_plot , dat = "stages", height = unit(1.5, "lines"),  size = 3, abbrv = TRUE)
+
 # Save a copy of the plot to your plots folder:
-ggsave(plot = cov_rare_plot,
-       width = 20, height = 15, dpi = 600, units = "cm", 
-       filename = "./Coverage_subsampling_plot_new.pdf", useDingbats=FALSE)
+#ggsave(plot = cov_rare_plot,
+#       width = 20, height = 15, dpi = 600, units = "cm", 
+#       filename = "./Coverage_subsampling_plot_new.pdf", useDingbats=FALSE)
 
 
 
@@ -219,23 +216,30 @@ cov_rare_size[which(cov_rare_size$Assemblage %in% intervals$interval_name_abb[23
 
 cov_rare_cov <- cov_rare$coverage_based %>% as_tibble() #convert to tibble for ease of plotting
 
+
 cov_rare_cov[which(cov_rare_cov$Assemblage %in% intervals$interval_name_abb[1:8]), "Period"] <- "Silurian"
 cov_rare_cov[which(cov_rare_cov$Assemblage %in% intervals$interval_name_abb[9:15]), "Period"] <- "Devonian"
 cov_rare_cov[which(cov_rare_cov$Assemblage %in% intervals$interval_name_abb[16:22]), "Period"] <- "Carboniferous"
 cov_rare_cov[which(cov_rare_cov$Assemblage %in% intervals$interval_name_abb[23:31]), "Period"] <- "Permian"
 
-
+############################
 # Plot data. We will divide data into two separate plots to make visualisation easier:
 # One for Silurian-Devonian, one for Carboniferous-Permian
+############################
 
+colour_scheme <- c("#F04028","#F04028","#67A599","#F04028", "#F04028","#67A599","#67A599","#F04028",
+                   "#67A599", "#F04028","#F04028","#67A599","#67A599","#67A599","#F04028","#F04028")
 
+names(colour_scheme) <- c("Ar", "As", "Ba", "Ca", "Cha", "Gz","Ka","Ku","Mo","Ro", "Sa","Se","To", "Vi","Wo","Wu")
+        
 cov_rare1 <-subset(cov_rare_cov, Period=="Carboniferous" | Period=="Permian")
 
 cov_rare_plot1 <- ggplot(data = cov_rare1, aes(x = SC, y = qD, ymin = qD.LCL, ymax = qD.UCL, fill = Assemblage, colour = Period, lty = Method)) + 
   geom_line(size = 1) + 
+  geom_smooth(aes(fill=Assemblage))+
   scale_linetype_manual(values=c("dotted", "dotdash", "solid")) +
   scale_colour_manual(values = c("#67A599","#F04028")) +
- # geom_point(data = cov_rare1, aes(x = SC, y = qD, pch = Period, colour = Period), size = 3, inherit.aes = F) + 
+  scale_fill_manual(values = colour_scheme) +
   theme(panel.background = element_blank(),
         legend.position="none",
         panel.grid.minor.y = element_line(colour = "grey90"),
@@ -246,11 +250,11 @@ cov_rare_plot1 <- ggplot(data = cov_rare1, aes(x = SC, y = qD, ymin = qD.LCL, ym
         axis.text.x = element_text(size=12, angle=0, hjust=0.5),
         axis.text.y = element_text(size=16),
         axis.title = element_text(size=14)) + 
-  labs(x = "Coverage", y = "Genus diversity") +
-  scale_x_continuous(limits = c(0, 1.05), expand=c(0,0), breaks = seq(0, 1, 0.25)) +
+  labs(x = "Sample coverage", y = "Genus diversity") +
+  scale_x_continuous(limits = c(0, 1.1), expand=c(0,0), breaks = seq(0, 1, 0.25)) +
   scale_y_continuous(limits = c(0, 130), expand=c(0,0), breaks = seq(0, 130, 30))
 cov_rare_plot1
-cov_rare_plot1 +geom_dl(data=cov_rare1, aes(label=Assemblage),method=list("last.points",rot=30))
+cov_rare_plot1 <- cov_rare_plot1 +geom_dl(data=cov_rare1, aes(label=Assemblage),method=list("last.points",rot=30))
 
 #Save a copy of the plot to your plots folder:
  # ggsave(plot = cov_rare_plot1,
@@ -261,10 +265,18 @@ cov_rare_plot1 +geom_dl(data=cov_rare1, aes(label=Assemblage),method=list("last.
   
 cov_rare2 <-subset(cov_rare_cov, Period=="Silurian" | Period=="Devonian")
 
+colour_scheme2 <- c("#B3E1B6","#B3E1B6","#B3E1B6","#B3E1B6","#B3E1B6","#B3E1B6","#B3E1B6","#B3E1B6","#CB8C37",
+                    "#CB8C37","#CB8C37","#CB8C37","#CB8C37","#CB8C37","#CB8C37")
+
+names(colour_scheme2) <- c("Rh",  "Ae",  "Te",  "Sh",  "Ho",  "Go",  "Lu",  "Pr",  "Lo",  "Pra", "Em",  "Ei",  "Gi",  "Fra", "Fam")
+
+  
 cov_rare_plot2 <- ggplot(data = cov_rare2, aes(x = SC, y = qD, ymin = qD.LCL, ymax = qD.UCL, fill = Assemblage, colour = Period, lty = Method)) + 
   geom_line(size = 1) + 
+  geom_smooth(aes(fill=Assemblage))+
+  scale_fill_manual(values = colour_scheme2)+
   scale_linetype_manual(values=c("dotted", "dotdash", "solid")) +
-  scale_colour_manual(values = c("#B3E1B6","#CB8C37")) +
+  scale_colour_manual(values = c("#CB8C37","#B3E1B6")) +
   # geom_point(data = cov_rare1, aes(x = SC, y = qD, pch = Period, colour = Period), size = 3, inherit.aes = F) + 
   theme(panel.background = element_blank(),
         legend.position="none",
@@ -276,11 +288,11 @@ cov_rare_plot2 <- ggplot(data = cov_rare2, aes(x = SC, y = qD, ymin = qD.LCL, ym
         axis.text.x = element_text(size=12, angle=0, hjust=0.5),
         axis.text.y = element_text(size=16),
         axis.title = element_text(size=14)) + 
-  labs(x = "Coverage", y = "Genus diversity") +
-  scale_x_continuous(limits = c(0, 1.05), expand=c(0,0), breaks = seq(0, 1, 0.25)) +
+  labs(x = "Sample coverage", y = "Genus diversity") +
+  scale_x_continuous(limits = c(0, 1.1), expand=c(0,0), breaks = seq(0, 1, 0.25)) +
   scale_y_continuous(limits = c(0, 130), expand=c(0,0), breaks = seq(0, 130, 30))
 cov_rare_plot2
-cov_rare_plot2 +geom_dl(data=cov_rare2, aes(label=Assemblage),method=list("last.points",rot=30))
+cov_rare_plot2 <- cov_rare_plot2 +geom_dl(data=cov_rare2, aes(label=Assemblage),method=list("last.points",rot=30))
 
 #Save a copy of the plot to your plots folder:
 #ggsave(plot = cov_rare_plot2,
@@ -293,12 +305,6 @@ cov_rare_plot2 +geom_dl(data=cov_rare2, aes(label=Assemblage),method=list("last.
 #############
 
 ###Use cov_rare_size part of inc.data and t as x values????????
-
-colour_scheme <- c("#F04028","#F04028","#67A599","#F04028", "#F04028","#67A599","#67A599","#F04028",
-                   "#67A599", "#F04028","#F04028","#67A599","#67A599","#67A599","#F04028","#F04028")
-
-names(colour_scheme) <- c("Ar", "As", "Ba", "Ca", "Cha", "Gz","Ka","Ku","Mo","Ro", "Sa","Se","To", "Vi","Wo","Wu")
-
 cov_rare3 <-subset(cov_rare_size, Period=="Carboniferous" | Period=="Permian")
 
 cov_rare_plot3 <- ggplot(data = cov_rare3, aes(x = t, y = qD, fill = Assemblage, colour = Period, lty = Method)) + 
@@ -321,7 +327,7 @@ cov_rare_plot3 <- ggplot(data = cov_rare3, aes(x = t, y = qD, fill = Assemblage,
 scale_x_continuous(limits = c(0, 650), expand=c(0,0), breaks = seq(0, 600, 100)) +
   scale_y_continuous(limits = c(0, 130), expand=c(0,0), breaks = seq(0, 130, 30))
 cov_rare_plot3
-cov_rare_plot3 +geom_dl(data=cov_rare3, aes(label=Assemblage),method=list("last.points",rot=30))
+cov_rare_plot3 <- cov_rare_plot3 +geom_dl(data=cov_rare3, aes(label=Assemblage),method=list("last.points",rot=30))
 
 #Save a copy of the plot to your plots folder:
 #ggsave(plot = cov_rare_plot3,
@@ -329,11 +335,6 @@ cov_rare_plot3 +geom_dl(data=cov_rare3, aes(label=Assemblage),method=list("last.
        #filename = "./Standard_rarefaction_plot_Carb_Perm.pdf", useDingbats=FALSE)
 
 #Second plot
-colour_scheme2 <- c("#B3E1B6","#B3E1B6","#B3E1B6","#B3E1B6","#B3E1B6","#B3E1B6","#B3E1B6","#B3E1B6","#CB8C37",
-                    "#CB8C37","#CB8C37","#CB8C37","#CB8C37","#CB8C37","#CB8C37")
-
-names(colour_scheme2) <- c("Rh",  "Ae",  "Te",  "Sh",  "Ho",  "Go",  "Lu",  "Pr",  "Lo",  "Pra", "Em",  "Ei",  "Gi",  "Fra", "Fam")
-
 cov_rare4 <-subset(cov_rare_cov, Period=="Silurian" | Period=="Devonian")
 
 cov_rare_plot4 <- ggplot(data = cov_rare4, aes(x = t, y = qD, ymin = qD.LCL, ymax = qD.UCL, fill = Assemblage, colour = Period, lty = Method)) + 
@@ -357,7 +358,7 @@ cov_rare_plot4 <- ggplot(data = cov_rare4, aes(x = t, y = qD, ymin = qD.LCL, yma
   scale_x_continuous(limits = c(0, 650), expand=c(0,0), breaks = seq(0, 600, 100)) +
  scale_y_continuous(limits = c(0, 130), expand=c(0,0), breaks = seq(0, 130, 30))
 cov_rare_plot4
-cov_rare_plot4 +geom_dl(data=cov_rare4, aes(label=Assemblage),method=list("last.points",rot=30))
+cov_rare_plot4 <- cov_rare_plot4 +geom_dl(data=cov_rare4, aes(label=Assemblage),method=list("last.points",rot=30))
 
 
 all<- ggarrange2(cov_rare_plot1,cov_rare_plot3,cov_rare_plot2, cov_rare_plot4,nrow=2, ncol=2, labels = c('A', 'C','B','D'))
@@ -366,7 +367,7 @@ all<- ggarrange2(cov_rare_plot1,cov_rare_plot3,cov_rare_plot2, cov_rare_plot4,nr
 #Save a copy of the plot to your plots folder:
 ggsave(plot = all,
        width = 20, dpi = 600, units = "cm", 
-       filename = "./All_rarefaction_new.pdf", useDingbats=FALSE)
+       filename = "./All_rarefaction_new.png")
 
 
 ########################################################################################
@@ -407,7 +408,8 @@ df13 <- genus_freq1$Frasnian[order(genus_freq1$Frasnian,decreasing = TRUE)]
 df14 <- genus_freq1$Famennian[order(genus_freq1$Famennian,decreasing = TRUE)]
 #Carboniferous
 df15 <- genus_freq1$Tournaisian[order(genus_freq1$Tournaisian,decreasing = TRUE)]
-
+df16 <- genus_freq1$Visean[order(genus_freq1$Visean,decreasing = TRUE)]
+df17 <- genus_freq1$Serpukhovian[order(genus_freq1$Serpukhovian,decreasing = TRUE)]
 
 par(mfrow=c(3,6))
 #dev.off()
@@ -431,11 +433,7 @@ barplot(df16,ylab="Frequency", xlab="Number of genera", main="Visean",col="#67A5
 barplot(df17,ylab="Frequency", xlab="Number of genera", main="Serpukhovian",col="#67A599")
 
 
-
 #Carboniferous
-
-df16 <- genus_freq1$Visean[order(genus_freq1$Visean,decreasing = TRUE)]
-df17 <- genus_freq1$Serpukhovian[order(genus_freq1$Serpukhovian,decreasing = TRUE)]
 df18 <- genus_freq1$Bashkirian[order(genus_freq1$Bashkirian,decreasing = TRUE)]
 df19 <- genus_freq1$Moscovian[order(genus_freq1$Moscovian,decreasing = TRUE)]
 df20 <- genus_freq1$Kasimovian[order(genus_freq1$Kasimovian,decreasing = TRUE)]
@@ -443,8 +441,6 @@ df21 <- genus_freq1$Gzhelian[order(genus_freq1$Gzhelian,decreasing = TRUE)]
 #Permian
 df22 <- genus_freq1$Asselian[order(genus_freq1$Asselian,decreasing = TRUE)]
 df23 <- genus_freq1$Sakmarian[order(genus_freq1$Sakmarian,decreasing = TRUE)]
-#Permian
-
 df24 <- genus_freq1$Artinskian[order(genus_freq1$Artinskian,decreasing = TRUE)]
 df25 <- genus_freq1$Kungurian[order(genus_freq1$Kungurian,decreasing = TRUE)]
 df26 <- genus_freq1$Roadian[order(genus_freq1$Roadian,decreasing = TRUE)]
@@ -470,5 +466,29 @@ barplot(df28,ylab="Frequency", xlab="Number of genera", main="Capitanian",col="#
 barplot(df29,ylab="Frequency", xlab="Number of genera", main="Wuchiapingian",col="#F04028")
 barplot(df30,ylab="Frequency", xlab="Number of genera", main="Changhsingian",col="#F04028")
 
+## Now join this up with data from the intervals dataset
+cov_rare_size <- cov_rare_size %>% rename(interval_name_abb=Assemblage)
+cov_rare_size <- cov_rare_size %>% full_join(.,intervals, by = "interval_name_abb") 
 
 
+cov_rare_size 
+
+cov_rare_plot1 <- ggplot(data = cov_rare_size, aes(x = MID.POINT, y = SC, lty= Method)) + 
+  geom_boxplot(aes(group=interval_name_abb)) + 
+  #scale_colour_manual(values = c("#67A599","#F04028")) +
+  theme(panel.background = element_blank(),
+        legend.position="top",
+        panel.grid.minor.y = element_line(colour = "grey90"),
+        panel.grid.minor.x = element_line(colour = "grey90"),
+        panel.grid.major.y = element_line(colour = "grey90"),
+        panel.grid.major.x = element_line(colour = "grey90"),
+        panel.border = element_rect(colour = "black", fill = NA),
+        axis.text.x = element_text(size=12, angle=0, hjust=0.5),
+        axis.text.y = element_text(size=16),
+        axis.title = element_text(size=14)) + 
+  labs(x = "Time", y = "Coverage")+
+scale_x_reverse(expand=c(0,0), limits = c(467.3, 251.902), breaks = c(250,300,350,400,450))
+cov_rare_plot1
+
+
+cov_rare_plot1 +geom_dl(data=cov_rare1, aes(label=Assemblage),method=list("last.points",rot=30))

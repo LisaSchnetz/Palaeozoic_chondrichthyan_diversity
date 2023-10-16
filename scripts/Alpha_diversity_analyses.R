@@ -23,7 +23,6 @@ library(magrittr)
 library(dplyr)
 library(ggplot2)
 library(deeptime)
-library(matrixStats)
 library(divDyn)
 library(colorspace)
 

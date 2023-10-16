@@ -17,41 +17,24 @@ library(ggpubr)
 library(viridis)
 
 # Read in the datasets:
-Palshark_data <- read.csv2("./data/Chondrichthyes_input_R_sampling.csv")
-acantho_data <- read.csv2("./data/Acanthodian_input_R_sampling.csv")
-
-shark_data <- rbind(Palshark_data, acantho_data)
+shark_data <- read.csv("./data/Total_chondrichthyes_coordinates_new.csv")
 
 intervals <- read.csv2("./data/Intervals.csv")
 
 # Subset data to continents
-shark_NA <- subset(shark_data, CONTINENT.1=="North America"|CONTINENT.2=="North America"|
-                     CONTINENT.3=="North America"|CONTINENT.4=="North America"|
-                     CONTINENT.5=="North America")
+shark_NA <- subset(shark_data, CONTINENT=="North America")
 
-shark_Europe <- subset(shark_data, CONTINENT.1=="Europe"|CONTINENT.2=="Europe"|
-                     CONTINENT.3=="Europe"|CONTINENT.4=="Europe"|
-                     CONTINENT.5=="Europe")
+shark_Europe <- subset(shark_data, CONTINENT=="Europe")
 
-shark_Asia <- subset(shark_data, CONTINENT.1=="Asia"|CONTINENT.2=="Asia"|
-                         CONTINENT.3=="Asia"|CONTINENT.4=="Asia"|
-                         CONTINENT.5=="Asia")
+shark_Asia <- subset(shark_data, CONTINENT=="Asia")
 
-shark_Africa <- subset(shark_data, CONTINENT.1=="Africa"|CONTINENT.2=="Africa"|
-                       CONTINENT.3=="Africa"|CONTINENT.4=="Africa"|
-                       CONTINENT.5=="Africa")
+shark_Africa <- subset(shark_data, CONTINENT=="Africa")
 
-shark_SA <- subset(shark_data, CONTINENT.1=="South America"|CONTINENT.2=="South America"|
-                     CONTINENT.3=="South America"|CONTINENT.4=="South America"|
-                     CONTINENT.5=="South America")
+shark_SA <- subset(shark_data, CONTINENT=="South America")
 
-shark_Ant <- subset(shark_data, CONTINENT.1=="Antarctica"|CONTINENT.2=="Antarctica"|
-                         CONTINENT.3=="Antarctica"|CONTINENT.4=="Antarctica"|
-                         CONTINENT.5=="Antarctica")
+shark_Ant <- subset(shark_data, CONTINENT=="Antarctica")
 
-shark_Aus <- subset(shark_data, CONTINENT.1=="Australia and Oceania"|CONTINENT.2=="Australia and Oceania"|
-                      CONTINENT.3=="Australia and Oceania"|CONTINENT.4=="Australia and Oceania"|
-                      CONTINENT.5=="Australia and Oceania")
+shark_Aus <- subset(shark_data, CONTINENT=="Australia and Oceania")
 
 ####################################################################
 ############################## Raw curves ############################
@@ -201,9 +184,13 @@ rawplot_continents <- ggplot()+
   scale_y_continuous(expand=c(0,0), breaks = c(0,25, 50, 75, 100), limits = c(0, 100))
 
 #add time scale to your plot
-rawplot_continents <- gggeo_scale(rawplot_continents, dat = "periods", height = unit(1.5, "lines"),  size = 4, abbrv = FALSE)
-rawplot_continents <- gggeo_scale(rawplot_continents, dat = "stages", height = unit(1.5, "lines"),  size = 3, abbrv = TRUE)
+rawplot_continents <- rawplot_continents+ coord_geo(xlim = c(470, 250), pos = as.list(rep("bottom",2)),
+            dat = list("stages","periods"),
+            height = list(unit(1.5, "lines"),unit(1.5,"lines")), rot = list(0,0), size = list(2.5, 2.5), abbrv = list(TRUE, FALSE))
 
+ggsave(plot = rawplot_continents,
+       width = 20, height = 15, dpi = 600, units = "cm", 
+       filename = "./plots/spatial_biases_raw.pdf", useDingbats=FALSE)
 
 #######################################################################
 #        Squares analyses continents                                  #
@@ -498,15 +485,20 @@ squaresplot_cont <- ggplot() +
   
   scale_x_reverse(expand=c(0,0), limits = c(467.3, 251.902), breaks = c(250,300,350,400,450)) +
   labs(x = "Time (Ma)", y = "Squares diversity") +
-  scale_y_continuous(expand=c(0,0), breaks = c(0,25,50,75,100,125), limits = c(0, 125)) +
+  scale_y_continuous(expand=c(0,0), breaks = c(0,25,50,75,100,125), limits = c(0, 140)) +
   theme_classic()+
   theme(legend.position="top",legend.background = element_rect(size=0.5))+
   theme(plot.margin=margin(0.5,0.75,0.5,0.5,"cm"))
 
+squaresplot_cont
 #add time scale to your plot
-squaresplot_cont_scale <- gggeo_scale(squaresplot_cont, dat = "periods", height = unit(1.5, "lines"),  size = 4, abbrv = FALSE)
-squaresplot_cont_scale <- gggeo_scale(squaresplot_cont_scale, dat = "stages", height = unit(1.5, "lines"),  size = 3, abbrv = TRUE)
+squaresplot_cont <- squaresplot_cont + coord_geo(xlim = c(470, 250), pos = as.list(rep("bottom",2)),
+                                 dat = list("stages","periods"),
+                                 height = list(unit(1.5, "lines"),unit(1.5,"lines")), rot = list(0,0), size = list(2.5, 2.5), abbrv = list(TRUE, FALSE))
 
+ggsave(plot = squaresplot_cont,
+       width = 20, height = 15, dpi = 600, units = "cm", 
+       filename = "./plots/spatial_biases_squares.pdf", useDingbats=FALSE)
 
 #######################
 #
