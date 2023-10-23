@@ -112,6 +112,7 @@ plotting_data <- plotting_data %>% rename(interval_name = Assemblage) %>% full_j
 plotting_data$interval_name <- as.factor(plotting_data$interval_name) 
 plotting_data$quorum_level <- as.factor(plotting_data$quorum_level)
 
+#write.csv(plotting_data,"./data/sqs_data.csv", row.names = FALSE)
 
 ## Create a colour gradient if plotting more than one quorum level 
 blue_gradient <- scales::seq_gradient_pal("cyan2", "darkslategrey", "Lab")(seq(0, 1, length.out = 4))

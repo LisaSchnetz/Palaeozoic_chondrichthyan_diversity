@@ -79,6 +79,7 @@ for(i in 1:length(gen_freq)) {
 
 to_plot <- data.frame(midpoints, squares_list)
 
+#write.csv(to_plot,"./data/squares_data.csv", row.names = FALSE)
 
 ## Third: Plot the data using ggplot
 

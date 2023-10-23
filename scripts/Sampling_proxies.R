@@ -82,6 +82,8 @@ proxy_counts <- rename(proxy_counts,
 ## Finally, convert all zero's to NAs for plotting 
 proxy_counts[proxy_counts == 0] <- NA 
 
+#write.csv(proxy_counts,"./data/raw_data.csv", row.names = FALSE)
+
 #######################################################################
 #             Alpha diversity analysis total chondrichthyans         #
 #######################################################################
