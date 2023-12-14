@@ -1,13 +1,11 @@
 ######Diversity analyses Palaeozoic chondrichthyans####
 
 install.packages("divDyn")
-install.packages("matrixStats")
 install.packages("colorspace")
 
-library(matrixStats)
 library(divDyn)
 library(colorspace)
-
+library(ggplot2)
 
 ###Dataset with sp. species!####
 
@@ -16,8 +14,6 @@ sharks <- read.csv2("./data/Chondrichthyes_input_R_sampling.csv")
 Acanthodians <-read.csv2("./data/Acanthodian_input_R_sampling.csv")
 
 allsharks <- rbind(sharks, Acanthodians)
-
-
 
 allsharks["new_bin"] <- NA
 allsharks$new_bin <- as.numeric(as.character(allsharks$new_bin))
@@ -102,13 +98,17 @@ df2 <- do.call("rbind", All_Bin_List)
 bin_info <- binstat(df2, tax="GENUS", bin="new_bin")
 bin_info[bin_info==0] <- NA
 
+# Attach time data to binstat data to get good's u plus time data
+ugood <- cbind(bin_info, binDframe)
+
+#Calculate diversity dynamics
 ddsharks<-divDyn(df2, tax="GENUS", bin="new_bin")
 
 ####ggplot instead of tplot for Second-for-third origination/extinction rates####
 
 ggplotorigination <-cbind(ddsharks,binDframe)
 
-write.csv(ggplotorigination,"D:/Third chapter data 051021/divdyn_results.csv", row.names = FALSE)
+#write.csv(ggplotorigination,"D:/Third chapter data 051021/divdyn_results.csv", row.names = FALSE)
 
 #theme_iNEXT <- theme(panel.background = element_blank(),
                     # panel.grid.minor.y = element_blank(), panel.grid.minor.x = element_blank(),
@@ -159,8 +159,6 @@ ggsave(plot = origination_scale,
        filename = "./plots/origination_plot.pdf", useDingbats=FALSE)
 
 
-
-
 squaresplot2 <- ggplot(ggplotorigination, aes(x=mid)) + theme_iNEXT+
   geom_rect(aes(xmax=467.3, xmin = 458.4, ymin = -0.15, ymax = Inf),fill= "grey90") +
   geom_rect(aes(xmax=453, xmin = 445.2, ymin = -0.15, ymax = Inf),fill= "grey90") +
@@ -191,3 +189,30 @@ squaresplot2
 
 scale <- gggeo_scale(squaresplot2, dat = "stages",height = unit(4, "lines"), rot = 90, size = 2.5, abbrv = FALSE)
 scale
+
+## Plot Good's u time series to estimate simple sample coverage
+
+uplot <- ggplot(data=ugood, aes(x=mid, y=u, colour="black")) +
+  geom_line(size = 1) + 
+  geom_point(size=2)+
+  scale_colour_manual(values = "black") +
+  theme(panel.background = element_blank(),
+        legend.position="none",
+        panel.grid.minor.y = element_line(colour = "grey90"),
+        panel.grid.minor.x = element_line(colour = "grey90"),
+        panel.grid.major.y = element_line(colour = "grey90"),
+        panel.grid.major.x = element_line(colour = "grey90"),
+        panel.border = element_rect(colour = "black", fill = NA),
+        axis.text.x = element_text(size=12, angle=0, hjust=0.5),
+        axis.text.y = element_text(size=16),
+        axis.title = element_text(size=14)) + 
+  
+  scale_x_reverse(expand=c(0,0), limits = c(467.3, 250), breaks = c(300,350,400,450)) +
+  scale_y_continuous(expand=c(0,0), breaks = c(0, 0.25, 0.5, 0.75, 1.0), limits = c(0, 1.05))+
+  labs(x = "Time (Ma)", y = "Good's u") 
+
+uplot
+
+ggsave(plot = uplot,
+       width = 20, height = 15, dpi = 600, units = "cm", 
+       filename = "./plots/goods_u_plot.png")

@@ -197,6 +197,7 @@ names(incidence_data) <- intervals$interval_name_abb # name each list item from 
 incidence_data <- incidence_data[!sapply(incidence_data, is.null)] 
 
 #Run analysis by applying the iNEXT function of the package
+# You might have to run it more than once as it sometimes gives you an error. 
 
 inc.data <- iNEXT(incidence_data, q = 0, datatype = "incidence_raw") 
 
@@ -324,7 +325,7 @@ cov_rare_plot3 <- ggplot(data = cov_rare3, aes(x = t, y = qD, fill = Assemblage,
         axis.text.x = element_text(size=12, angle=0, hjust=0.5),
         axis.text.y = element_text(size=16),
         axis.title = element_text(size=14)) + 
-  labs(x = "Number of individuals", y = "Genus diversity") +
+  labs(x = "Number of occurrences", y = "Genus diversity") +
 scale_x_continuous(limits = c(0, 650), expand=c(0,0), breaks = seq(0, 600, 100)) +
   scale_y_continuous(limits = c(0, 130), expand=c(0,0), breaks = seq(0, 130, 30))
 cov_rare_plot3
@@ -355,20 +356,19 @@ cov_rare_plot4 <- ggplot(data = cov_rare4, aes(x = t, y = qD, ymin = qD.LCL, yma
         axis.text.x = element_text(size=12, angle=0, hjust=0.5),
         axis.text.y = element_text(size=16),
         axis.title = element_text(size=14)) + 
-  labs(x = "Number of individuals", y = "Genus diversity") + 
+  labs(x = "Number of occurrences", y = "Genus diversity") + 
   scale_x_continuous(limits = c(0, 650), expand=c(0,0), breaks = seq(0, 600, 100)) +
  scale_y_continuous(limits = c(0, 130), expand=c(0,0), breaks = seq(0, 130, 30))
 cov_rare_plot4
 cov_rare_plot4 <- cov_rare_plot4 +geom_dl(data=cov_rare4, aes(label=Assemblage),method=list("last.points",rot=30))
 
-
-all<- ggarrange2(cov_rare_plot1,cov_rare_plot3,cov_rare_plot2, cov_rare_plot4,nrow=2, ncol=2, labels = c('A', 'C','B','D'))
+all<- ggarrange(cov_rare_plot1,cov_rare_plot3,cov_rare_plot2, cov_rare_plot4, nrow=2, ncol=2, labels = c('A', 'C','B','D','E'))
 
 
 #Save a copy of the plot to your plots folder:
 ggsave(plot = all,
-       width = 20, dpi = 600, units = "cm", 
-       filename = "./All_rarefaction_new.png")
+       width = 4724, height = 4766, dpi = 600, units = "px", 
+       filename = "./All_rarefaction_new_R2.png")
 
 
 ########################################################################################
