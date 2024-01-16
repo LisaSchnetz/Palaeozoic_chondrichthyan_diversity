@@ -1,45 +1,44 @@
-####################################################
-#                                                  #
-#    Estimate sampling proxies from raw data        #  
-#                                                  #
-####################################################
-#                                                  #
-#         Lisa Schnetz - September 2022            #
-#                                                  #
-####################################################
+###########################################################################
+#                                                                         #
+#       Estimate sampling proxies + alpha diversity from raw data         #  
+#                                                                         #
+###########################################################################
+#                                                                         #
+#                     Lisa Schnetz - September 2022                       #
+#                                                                         #
+###########################################################################
 
 ## Packages used in this script:
-
 install.packages("tidyverse")
 install.packages("deeptime")
 install.packages("ggplot2")
 install.packages("dplyr")
 
+## Load packages: 
 library(tidyverse)
 library(deeptime)
 library(ggplot2)
 library(dplyr)
 
-# First make sure that your environment is clean so that you don't mix up data
+## First make sure that your environment is clean so that you don't mix up data
 rm(list=ls()) 
 
-## Read in the datasets:
+## 1. Read in the datasets:
 shark_data <- read.csv2("./data/Chondrichthyes_input_R_sampling.csv")
 
+#Acanthodian data from Schnetz et al. 2022 - Palaeontology: https://doi.org/10.1111/pala.12616
 Acanthodians <-read.csv2("./data/Acanthodian_input_R_sampling.csv")
 allsharks <- rbind(shark_data, Acanthodians)
 
+#Simple csv file containing stage level intervals and ages
 intervals <- read.csv2("./data/Intervals.csv")
 
- glimpse(allsharks)
-
-#Count your data:
+## 2. Count your data:
 
 #Here, we are going to count raw numbers for the different units we want to consider. For sampling biases, 
 #this should contain number of taxa, formations and localities (= collections)
 
-# 1. Taxa per interval 
-
+#Taxa per interval: 
 count_taxa <- vector("numeric") 
 for (i in 1:nrow(intervals)) {
   out <- subset(allsharks, MAX_DATE > intervals[i,]$MIN_DATE & MIN_DATE < intervals[i,]$MAX_DATE)
@@ -47,8 +46,7 @@ for (i in 1:nrow(intervals)) {
   print(count_taxa[i])
 }
 
-
-# 2. Collections per interval
+#Collections per interval: 
 allsharks2 <- distinct(allsharks, GENUS, COLLECTION, .keep_all = TRUE)
 
 count_colls <- vector("numeric")
@@ -58,7 +56,7 @@ for (i in 1:nrow(intervals)) {
   print(count_colls[i])
 }
 
-# Formations per interval
+#Formations per interval: 
 allsharks3 <- distinct(allsharks, GENUS, FORMATION, .keep_all = TRUE)
 
 count_formations <- vector("numeric")
@@ -68,9 +66,7 @@ for (i in 1:nrow(intervals)) {
   print(count_formations[i])
 }
 
-
-#Add all the information into a dataframe to make plotting easier####
-
+#Combine all the information into one dataframe to make plotting easier:
 proxy_counts <- data.frame(intervals$interval_name, intervals$MID.POINT, count_taxa, count_colls, count_formations)
 
 # Rename the columns for ease:
@@ -78,22 +74,15 @@ proxy_counts <- rename(proxy_counts,
                        "interval_name" = "intervals.interval_name", 
                        "mid_ma" = "intervals.MID.POINT")
 
-
 ## Finally, convert all zero's to NAs for plotting 
 proxy_counts[proxy_counts == 0] <- NA 
 
-#write.csv(proxy_counts,"./data/raw_data.csv", row.names = FALSE)
-
-#######################################################################
-#             Alpha diversity analysis total chondrichthyans         #
-#######################################################################
-
+## 3. Calculate alpha diversity
 
 ## The script used from here on is mainly taken from local_richness depository from Dr. Emma Dunne. https://github.com/emmadunne/local_richness.git
-## The method is based on the paper by Close et al. (2019).
+## The method is based on the paper by Close et al. (2019) - https://doi.org/10.1038/s41559-019-0811-8.
 
 ## First count the number of taxa per locality using the table() function
-
 freq_table <- as.data.frame(table(shark_data[, c('COLLECTION','GENUS')]$COLLECTION))
 names(freq_table)[1] <- "COLLECTION" 
 head(freq_table) 
@@ -107,10 +96,9 @@ locality_info <- select(shark_data, COLLECTION,
 alpha_data <- left_join(freq_table, locality_info, by = "COLLECTION")
 
 
-#Plot the data 
+## 4. Plot all the data 
 
 colors <-c("Collections" ="orange", "Formations"="brown1","Genera"="black")
-
 
 ## Set your ggplot theme:
 raw_plot <- ggplot(data=proxy_counts, aes(x=mid_ma)) + 
@@ -158,17 +146,15 @@ raw_plot <- ggplot(data=proxy_counts, aes(x=mid_ma)) +
 
 raw_plot # check plot
 
-Proxyplot <- gggeo_scale(raw_plot, dat = "periods", height = unit(1.5, "lines"),  size = 4, abbrv = FALSE)
-Proxyplot <- gggeo_scale(Proxyplot, dat = "stages", height = unit(1.5, "lines"),  size = 3, abbrv = TRUE)
+#add time scale to your plot
+Proxyplot <- raw_plot + coord_geo(xlim = c(470, 250), pos = as.list(rep("bottom",2)),
+                                     dat = list("stages","periods"),
+                                     height = list(unit(1.5, "lines"),unit(1.5,"lines")), rot = list(0,0), size = list(2.5, 2.5), abbrv = list(TRUE, FALSE))
+Proxyplot
 
-ggsave(plot = Proxyplot,
-       width = 16, height = 13, dpi = 600, units = "cm", 
-       filename = "./plots/sampling_proxies_021023.pdf", useDingbats=FALSE)
-
-
-# Lastly, perform a simple regression analysis to check correlation
-
-## Raw diversity vs. collections
+## 5. Perform a simple regression analysis to check correlation
+# Plot regression: 
+# Raw diversity vs. collections
 ggplot(proxy_counts, aes(x=count_taxa, y=count_colls)) + 
   geom_point(shape=17, size = 6, colour = "orange")+
   geom_smooth(method=lm, colour = "orange4", fill = "orange1")  +
@@ -180,12 +166,9 @@ ggplot(proxy_counts, aes(x=count_taxa, y=count_formations)) +
   geom_smooth(method=lm, colour = "orange4", fill = "orange1") +
   theme_minimal()
 
+# Quantify regression: 
+lm_colls = lm(count_colls ~ count_taxa, proxy_counts) 
+summary(lm_colls) 
 
-## Let's quantify these relationships:
-lm_colls = lm(count_colls ~ count_taxa, proxy_counts) # linear model
-summary(lm_colls) # summary of results
-
-lm_forms = lm(count_formations ~ count_taxa, proxy_counts) # linear model
-summary(lm_forms) # summary of results
-
-
+lm_forms = lm(count_formations ~ count_taxa, proxy_counts)
+summary(lm_forms) 

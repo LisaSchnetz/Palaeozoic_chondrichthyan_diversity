@@ -13,12 +13,17 @@ install.packages("ggplot2")
 install.packages("tidyverse")
 install.packages("deeptime")
 
+## Load packages:
 library(ggplot2)
 library(tidyverse)
 library(deeptime)
 
 ## This script is a modified version of the squares scripts by Allen et al. 2020 - "The latitudinal diversity gradient of tetrapods across the Permo-Triassic mass extinction and recovery interval"
-## Diversity here is estimated using the squares method by Alroy (2018) 
+## https://github.com/bethany-j-allen/PT_tetrapod_LDG
+## Diversity here is estimated using the squares method by Alroy (2018): doi:10.1111/ele.13152
+
+## First make sure that your environment is clean so that you don't mix up data
+rm(list=ls()) 
 
 #Create a vector giving the chronological order of stages
 
@@ -34,18 +39,17 @@ midpoints <-c(462.85,455.7,449.1,444.5,442.3,439.65,435.95,431.95,428.95,426.5,4
 #Read in the datasets
 shark_data <- read.csv2("./data/Chondrichthyes_input_R_sampling.csv")
 
+#Acanthodian data from Schnetz et al. 2022 - Palaeontology: https://doi.org/10.1111/pala.12616
 Acanthodians <-read.csv2("./data/Acanthodian_input_R_sampling.csv")
 
-
+#Combine datasets: 
 allsharks <- rbind(shark_data, Acanthodians)
 
-glimpse(allsharks)
-
+#Simple csv file containing stage level intervals and ages
 intervals <- read.csv2("./data/Intervals.csv")
 
 
 ## First: Generate a list of frequencies by stage by using and trimming the 'count' function in dplyr
-
 gen_freq <- list()
 
 for (i in 1:length(stages)) {
@@ -57,7 +61,6 @@ for (i in 1:length(stages)) {
 
 names(gen_freq) <- stages
 glimpse(gen_freq)
-
 
 ## Second: Calculate squares estimator from the list created above
 
@@ -78,8 +81,6 @@ for(i in 1:length(gen_freq)) {
 }
 
 to_plot <- data.frame(midpoints, squares_list)
-
-#write.csv(to_plot,"./data/squares_data.csv", row.names = FALSE)
 
 ## Third: Plot the data using ggplot
 
@@ -117,24 +118,17 @@ squaresplot <- ggplot() +
   theme(plot.margin=margin(0.5,0.75,0.5,0.5,"cm"))
 
 #add time scale to your plot
-squaresplot_scale <- gggeo_scale(squaresplot, dat = "periods", height = unit(1.5, "lines"),  size = 4, abbrv = FALSE)
-squaresplot_scale <- gggeo_scale(squaresplot_scale , dat = "stages", height = unit(1.5, "lines"),  size = 3, abbrv = TRUE)
+squaresplot_scale <- squaresplot + coord_geo(xlim = c(470, 250), pos = as.list(rep("bottom",2)),
+                                             dat = list("stages","periods"),
+                                             height = list(unit(1.5, "lines"),unit(1.5,"lines")), rot = list(0,0), size = list(2.5, 2.5), abbrv = list(TRUE, FALSE))
+squaresplot_scale 
 
-
-ggsave(plot = squaresplot_scale,
-       width = 20, height = 15, dpi = 600, units = "cm", 
-       filename = "./plots/Squares_plot.pdf", useDingbats=FALSE)
-
-
-
-#######################################################################
-#        Squares analysis acanthodians versus chondrichthyans         #
-#######################################################################
+##############
+##### Calculate squares values for acanthodians and chondrichthyans separately
+##############
 
 ## First: Generate a list of frequencies by stage by using and trimming the 'count' function in dplyr
-
-## Chondrichthyans
-
+#Chondrichthyans
 gen_freq1 <- list()
 
 for (i in 1:length(stages)) {
@@ -146,8 +140,7 @@ for (i in 1:length(stages)) {
 
 names(gen_freq1) <- stages
 
-## Acanthodians
-
+#Acanthodians
 gen_freq2 <- list()
 
 for (i in 1:length(stages)) {
@@ -159,11 +152,8 @@ for (i in 1:length(stages)) {
 
 names(gen_freq2) <- stages
 
-
 ## Second: Calculate squares estimator from the list created above
-
-## Chondrichthyans
-
+#Chondrichthyans
 squares_list <- vector("numeric", length = 0)
 
 for(i in 1:length(gen_freq1)) {
@@ -182,9 +172,7 @@ for(i in 1:length(gen_freq1)) {
 
 to_plot1 <- data.frame(midpoints, squares_list)
 
-
-## Acanthodians
-
+#Acanthodians
 squares_list <- vector("numeric", length = 0)
 
 for(i in 1:length(gen_freq2)) {
@@ -205,7 +193,6 @@ to_plot2 <- data.frame(midpoints, squares_list)
 
 
 ## Third: Plot the data using ggplot
-
 squaresplotsep <- ggplot() +
   #manually add grey bars to differentiate stages
   geom_rect(aes(xmax=467.3, xmin = 458.4, ymin = 0, ymax = Inf),fill= "grey90",linetype="blank") +
@@ -243,11 +230,7 @@ squaresplotsep <- ggplot() +
   theme(plot.margin=margin(0.5,0.75,0.5,0.5,"cm"))
 
 #add time scale to your plot
-squaresplotsep_scale <- gggeo_scale(squaresplotsep, dat = "periods", height = unit(1.5, "lines"),  size = 4, abbrv = FALSE)
-squaresplotsep_scale <- gggeo_scale(squaresplotsep_scale, dat = "stages", height = unit(1.5, "lines"),  size = 3, abbrv = TRUE)
-
-
-ggsave(plot = squaresplotsep_scale,
-       width = 20, height = 15, dpi = 600, units = "cm", 
-       filename = "./plots/Squares_plot2.pdf", useDingbats=FALSE)
-
+squaresplotsep_scale <- squaresplotsep + coord_geo(xlim = c(470, 250), pos = as.list(rep("bottom",2)),
+                                             dat = list("stages","periods"),
+                                             height = list(unit(1.5, "lines"),unit(1.5,"lines")), rot = list(0,0), size = list(2.5, 2.5), abbrv = list(TRUE, FALSE))
+squaresplotsep_scale

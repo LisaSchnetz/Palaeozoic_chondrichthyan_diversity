@@ -16,7 +16,10 @@ library(deeptime)
 library(ggpubr)
 library(viridis)
 
-# Read in the datasets:
+## First make sure that your environment is clean so that you don't mix up data
+rm(list=ls()) 
+
+## Read in the datasets:
 shark_data <- read.csv("./data/Total_chondrichthyes_coordinates_new.csv")
 
 intervals <- read.csv2("./data/Intervals.csv")
