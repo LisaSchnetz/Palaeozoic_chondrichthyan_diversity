@@ -4,9 +4,21 @@
 #                                                                         #
 ###########################################################################
 #                                                                         #
-#                        Lisa Schnetz - May 2023                          #
+#                        Lisa Schnetz - Oktober 2023                      #
 #                                                                         #
 ###########################################################################
+
+## Packages used in this script:
+install.packages("tidyverse")
+install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("deeptime")
+install.packages("ggpubr")
+install.packages("divvy")
+install.packages("terra")
+install.packages("divDyn")
+install.packages("rgplates")
+install.packages("chronosphere")
 
 # Libraries used in this script
 library(tidyverse)
@@ -14,7 +26,11 @@ library(dplyr)
 library(ggplot2)
 library(deeptime)
 library(ggpubr)
-library(viridis)
+library(divvy)
+library(terra)
+library(divDyn)
+library(rgplates)
+library(chronosphere)
 
 ## First make sure that your environment is clean so that you don't mix up data
 rm(list=ls()) 
@@ -186,14 +202,11 @@ rawplot_continents <- ggplot()+
   scale_x_reverse(expand=c(0,0),limits = c(467.3, 251.902),breaks = c(250,300,350,400,450)) + labs(x = "Ma", y = "Raw richness") +
   scale_y_continuous(expand=c(0,0), breaks = c(0,25, 50, 75, 100), limits = c(0, 100))
 
-#add time scale to your plot
+# Add time scale
 rawplot_continents <- rawplot_continents+ coord_geo(xlim = c(470, 250), pos = as.list(rep("bottom",2)),
             dat = list("stages","periods"),
             height = list(unit(1.5, "lines"),unit(1.5,"lines")), rot = list(0,0), size = list(2.5, 2.5), abbrv = list(TRUE, FALSE))
 
-ggsave(plot = rawplot_continents,
-       width = 20, height = 15, dpi = 600, units = "cm", 
-       filename = "./plots/spatial_biases_raw.pdf", useDingbats=FALSE)
 
 #######################################################################
 #        Squares analyses continents                                  #
@@ -449,7 +462,6 @@ for(i in 1:length(gen_freq7)) {
 
 squares_Aus <- data.frame(midpoints, squares_list)
 
-
 ## Third: Plot the data using ggplot
 
 squaresplot_cont <- ggplot() +
@@ -494,99 +506,212 @@ squaresplot_cont <- ggplot() +
   theme(plot.margin=margin(0.5,0.75,0.5,0.5,"cm"))
 
 squaresplot_cont
-#add time scale to your plot
+
+# Add time scale
 squaresplot_cont <- squaresplot_cont + coord_geo(xlim = c(470, 250), pos = as.list(rep("bottom",2)),
                                  dat = list("stages","periods"),
                                  height = list(unit(1.5, "lines"),unit(1.5,"lines")), rot = list(0,0), size = list(2.5, 2.5), abbrv = list(TRUE, FALSE))
 
-ggsave(plot = squaresplot_cont,
-       width = 20, height = 15, dpi = 600, units = "cm", 
-       filename = "./plots/spatial_biases_squares.pdf", useDingbats=FALSE)
+##########################################################################################
+############################## Spatial subsampling using divvy ############################
+#########################################################################################
 
-#######################
-#
-#
-###### Plot Palaeocoordinates ##
-#
-#
-#################
-library(rgplates)
-library(chronosphere)
+## 1. Prepare data for divvy
 
-# Get offline palaeomodel data
+#Create a vector giving the chronological order of stages
+stages_names <- intervals$interval_name
 
-#Meredith et al. model
-merdith2021<- chronosphere::fetch(src="EarthByte", ser="MERDITH2021")
+bins <- c(467.3, 458.4, 453.0,445.2,443.8,440.8,438.5, 433.4,430.5,427.4,425.6,423.0,419.2,410.8,407.6,
+          393.3,387.7,382.7,372.2,358.9,346.7,330.9,323.2,315.2,307.0,303.7,298.9,293.52,290.1,283.5,
+          273.01,266.9,264.28,259.51,254.14,251.902) 
 
-shark_data <- read.csv("./data/Total_chondrichthyes_coordinates_new.csv")
+binDframe <- data.frame(bin = stages_names,
+                        max_ma = as.numeric(bins[1:(length(bins)-1)]), 
+                        min_ma = as.numeric(bins[2:(length(bins))]))
 
-collections <- unique(shark_data[, c("COLLECTION", "Longitude", "Latitude",  "MID.POINT")])
-collections <- na.omit(collections) 
+binDframe$mid_ma <- (binDframe$max_ma+binDframe$min_ma)/2
 
-# Merdith et al one
-paleoCoords2 <- rgplates::reconstruct(collections[, c("Longitude","Latitude")], age=collections$MID.POINT, model=merdith2021, enumerate=FALSE)
-colnames(paleoCoords2) <- c("plng", "plat")
-
-colls2 <- cbind(collections, paleoCoords2)
-
-shark_data_merdith <- merge(shark_data, colls2, by=c("COLLECTION", "Longitude", "Latitude", "MID.POINT"))
-
-## Save data as csv file
-#write_csv(shark_data_merdith, "./data/merdith_coord_021023.csv")
-
-coord_data <- read.csv("./data/merdith_coord_021023.csv")
-
-## Plot coordinates on simple plot
-# Count the number of taxa per collection (i.e. their frequency):
-taxa_freqs_2 <- count(coord_data, COLLECTION)
-
-taxa_freqs <- as.data.frame(table(coord_data[, c('COLLECTION','GENUS')]$COLLECTION))
-names(taxa_freqs)[1] <- "COLLECTION" 
-head(taxa_freqs) 
+shark_data["new_bin"] <- NA
+shark_data$new_bin <- as.numeric(as.character(shark_data$new_bin))
 
 
+#=== Bin in any bin it falls within ===
+All_Bin_List <- list()
+for(s in 1:nrow(binDframe)){ # for each new bin
+  temp_recs <- data.frame()
+  for (o in 1:nrow(shark_data)){ 
+    if (shark_data$MAX_DATE[o] > binDframe$min_ma[s] && shark_data$MIN_DATE[o] < binDframe$max_ma[s]){ # If occurrence max. age is greater than Bin min. age AND if occurrence min. age is less then Bin max. age (i.e. falls within bin at some point)
+      temp_recs <- rbind(temp_recs, shark_data[o,]) # Add that occurrence to binlist
+    }
+  }
+  if (nrow(temp_recs) > 0){
+    temp_recs$new_bin <- s
+  }
+  All_Bin_List[[s]] <- temp_recs
+}
+
+shark_data_new <- do.call("rbind", All_Bin_List)
+
+for (i in 1:length(stages_names)) {
+  shark_data_new$new_bin[shark_data_new$new_bin== i] <- stages_names[i]}
+
+##Tidy up and select only the columns necessary for the model input
+
+names(shark_data_new)[names(shark_data_new) == 'new_bin'] <- 'stage'
+names(shark_data_new)[names(shark_data_new) == 'MAX_DATE'] <- 'max_ma'
+names(shark_data_new)[names(shark_data_new) == 'MIN_DATE'] <- 'min_ma'
+names(shark_data_new)[names(shark_data_new) == 'MID.POINT'] <- 'mid_ma'
+
+## 2. Calculate palaeocoordinates for chondrichthyans using palaeoverse
+
+## Read in the dataset which includes the palaeo-rotated coordinates:
+## For details regarding rotations of coordinates into palaeocoordinates, visit https://adamtkocsis.com/rgplates/index.html. 
+sharks <- read.csv("./data/Palaeocoord.csv")
+
+## 3. Divvy protocol as per Antell et al. 2023: https://gawainantell.github.io/divvy/ 
+
+# Initialise Equal Earth projected coordinates
+rWorld <- rast()
+prj <- 'EPSG:8857'
+rPrj <- project(rWorld, prj, res = 200000) # 200,000m is approximately 2 degrees
+values(rPrj) <- 1:ncell(rPrj)
+
+# Coordinate column names for the current and target coordinate reference system
+xyCartes <- c('plng','plat')
+xyCell   <- c('cellX','cellY')
+
+# Extract cell number and centroid coordinates associated with each occurrence
+llOccs <- vect(sharks, geom = xyCartes, crs = 'epsg:4326')
+prjOccs <- project(llOccs, prj)
+sharks$cell <- cells(rPrj, prjOccs)[,'cell']
+sharks[, xyCell] <- xyFromCell(rPrj, sharks$cell)
+
+## 4. Calculate metrics for global dataset
+
+#Create a vector giving the chronological order of stages
+stages_names <- intervals$interval_name
+
+Stage_List <- list()
+for(s in 1:length(stages_names)){
+  temp <- data.frame()
+  for(o in 1:nrow(sharks)){
+    if(sharks$stage[o] == stages_names[s]){
+      temp <- rbind(temp, sharks[o,]) 
+    }
+  }
+  if (nrow(temp) > 0){
+    temp$new_bin <- s
+  }
+  Stage_List[[s]] <- temp
+}
+
+names(Stage_List) <- stages_names
+
+Stage_List <-within(Stage_List, rm(Katian))
+Stage_List <-within(Stage_List, rm(Hirnantian))
+
+summary_list <- list()
+
+for(i in 1:length(Stage_List)){
+  summary_list[[i]] <- sdSumry(Stage_List[i], taxVar = 'GENUS', xy = xyCell, crs = prj)
+}
+
+spatial_measures <- bind_rows(summary_list) 
+names(spatial_measures)[names(spatial_measures) == "id"] <- "interval_name"
+
+spatial_measures <- merge(spatial_measures, intervals, by="interval_name")
+str(spatial_measures)
+
+spatial_plot <- ggplot(spatial_measures) +
+  geom_line(aes(x = MID.POINT, y = minSpanTree, colour = "#FDE725FF"), size = 1) +
+  geom_line(aes(x = MID.POINT, y = greatCircDist,colour = "#29AF7FFF"), size = 1) +
+  geom_line(aes(x = MID.POINT, y = meanPairDist, colour = "#39568CFF"), size = 1) +
+  
+  geom_point(aes(x = MID.POINT, y = minSpanTree, colour = "#FDE725FF"), pch=19, size = 2) +
+  geom_point(aes(x = MID.POINT, y = greatCircDist,colour = "#29AF7FFF"), pch=19, size = 2) +
+  geom_point(aes(x = MID.POINT, y = meanPairDist, colour = "#39568CFF"), pch=19, size = 2) +
+  
+  labs(x = "Time (Ma)", y = "Distance (km)") +
+  scale_colour_manual(values= c("#FDE725FF","#29AF7FFF","#39568CFF"),
+                      labels=c("summed MST length","GCD", "mean PD")) +
+  scale_x_reverse(expand=c(0,0), limits = c(467.3, 251.902), breaks = c(250,300,350,400,450)) +
+  #scale_y_continuous(expand=c(0,0), breaks = c(0,25,50,75,100,125), limits = c(0, 125)) +
+  theme_classic()+
+  theme(legend.position="top",legend.background = element_rect(size=0.5),
+        legend.title = element_blank(),
+        plot.title = element_text(size = 10, face = "bold", hjust = 0.02, vjust = -5))+
+  #theme(plot.margin=margin(0.5,0.75,0.5,0.5,"cm"))+
+  ggtitle("Global")
+
+spatial_plot
+
+## 5. Calculate metrics for continent datasets
+
+#Example: North America
+shark_NA <- subset(sharks, CONTINENT=="North America")
+
+#Create a vector giving the chronological order of stages
+stages_names <- intervals$interval_name
+
+Stage_List_NA <- list()
+for(s in 1:length(stages_names)){
+  temp <- data.frame()
+  for(o in 1:nrow(shark_NA)){
+    if(shark_NA$stage[o] == stages_names[s]){
+      temp <- rbind(temp, shark_NA[o,]) 
+    }
+  }
+  if (nrow(temp) > 0){
+    temp$new_bin <- s
+  }
+  Stage_List_NA[[s]] <- temp
+}
+
+names(Stage_List_NA) <- stages_names
+
+# Remove stages without data for divvy 
+Stage_List_NA <-within(Stage_List_NA, rm(Darriwilian))
+Stage_List_NA <-within(Stage_List_NA, rm(Katian))
+Stage_List_NA <-within(Stage_List_NA, rm(Hirnantian))
+Stage_List_NA <-within(Stage_List_NA, rm(Rhuddanian))
+Stage_List_NA <-within(Stage_List_NA, rm(Aeronian))
+
+summary_list_NA <- list()
+
+for(i in 1:length(Stage_List_NA)){
+  summary_list_NA[[i]] <- sdSumry(Stage_List_NA[i], taxVar = 'GENUS', xy = xyCell, crs = prj)
+}
+
+spatial_measures_NA <- bind_rows(summary_list_NA) 
+names(spatial_measures_NA)[names(spatial_measures_NA) == "id"] <- "interval_name"
+
+spatial_measures_NA <- merge(spatial_measures_NA, intervals, by="interval_name")
+
+spatial_plot_NA <- ggplot(spatial_measures_NA) +
+  geom_line(aes(x = MID.POINT, y = minSpanTree, colour = "#FDE725FF"), size = 1) +
+  geom_line(aes(x = MID.POINT, y = greatCircDist,colour = "#29AF7FFF"), size = 1) +
+  geom_line(aes(x = MID.POINT, y = meanPairDist, colour = "#39568CFF"), size = 1) +
+  
+  geom_point(aes(x = MID.POINT, y = minSpanTree, colour = "#FDE725FF"), pch=19, size = 2) +
+  geom_point(aes(x = MID.POINT, y = greatCircDist,colour = "#29AF7FFF"), pch=19, size = 2) +
+  geom_point(aes(x = MID.POINT, y = meanPairDist, colour = "#39568CFF"), pch=19, size = 2) +
+  
+  labs(x = "Time (Ma)", y = "Distance (km)") +
+  scale_colour_manual(values= c("#FDE725FF","#29AF7FFF","#39568CFF"),
+                      labels=c("summed MST length","GCD", "mean PD")) +
+  scale_x_reverse(expand=c(0,0), limits = c(467.3, 251.902), breaks = c(250,300,350,400,450)) +
+  #scale_y_continuous(expand=c(0,0), breaks = c(0,25,50,75,100,125), limits = c(0, 125)) +
+  theme_classic()+
+  theme(legend.position="top",legend.background = element_rect(size=0.5),
+        legend.title = element_blank(),
+        plot.title = element_text(size = 10, face = "bold", hjust = 0.02, vjust = -5))+
+  #theme(plot.margin=margin(0.5,0.75,0.5,0.5,"cm"))+
+  ggtitle("North America")
+
+spatial_plot_NA
 
 
-## Subset lat_data to only the columns we need:
-coord_data <- coord_data%>% 
-  select(COLLECTION, plat, plng, MID.POINT) %>% 
-  distinct() %>% na.omit()
+## Repeat for the other continents
+## Plot together to compare patterns
 
-## Add add the frequency information:
-coord_data <- left_join(taxa_freqs, coord_data, by = "COLLECTION")
-
-## Before we plot, let's order the frequencies and remove any NAs that have crept in:
-coord_data <- coord_data %>% arrange(Freq) %>% na.omit()
-
-
-## Set up our ggplot layers
-lat_plot <- ggplot(data = coord_data, aes(x = MID.POINT, y = plat, colour = Freq)) +
- # geom_vline(xintercept = int_boundaries, lty = 2, col = "grey90") +
-  geom_hline(yintercept = 0, colour = "grey10") +
-  scale_color_viridis(trans = "log", breaks = c(1, 2, 10, 95), direction = -1, option = "D") + # set the break= to match your richness data
-  scale_y_continuous(labels = function(x) format(x, width = 5), limits = c(-90, 90), breaks = seq(from = -90, to = 90, by = 20)) +
-  scale_x_reverse() + 
-  theme_minimal() + 
-  theme(legend.direction = "vertical", 
-        panel.grid.major.x = element_blank(), 
-        panel.grid.minor.x = element_blank(), panel.grid.minor.y = element_blank(), 
-        axis.title = element_text(size = 12)) +
-  labs(x = "", y = "Paleolatitude (º)") +
-  geom_point(size = 4, alpha = 0.5) # (alpha sets point transparency)
-lat_plot # call to plot window
-
-
-lat_plot_strat <- lat_plot + coord_geo(xlim = c(470, 250), pos = as.list(rep("bottom",2)),
-                                                    dat = list("stages","periods"),
-                                                    height = list(unit(1.5, "lines"),unit(1.5,"lines")), rot = list(0,0), size = list(2.5, 2.5), abbrv = list(TRUE, FALSE))
-
-lat_plot_strat
-
-
-
-
-## Set dimensions and save plot (as pdf)
-ggsave(plot = lat_plot,
-       width = 20, height = 10, dpi = 500, units = "cm", 
-       filename = "./plots/lat_alpha_div.pdf", useDingbats=FALSE)
-
+######################################################End_of_script###################################################

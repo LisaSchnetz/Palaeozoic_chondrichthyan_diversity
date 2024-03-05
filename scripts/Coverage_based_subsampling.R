@@ -176,6 +176,7 @@ for(i in 1:length(cov_rare)) {
 }
 
 cov_rare_size <- cov_rare$size_based %>% as_tibble() #convert to tibble for ease of plotting
+
 #Add a geological period column to make plotting easier!
 cov_rare_size[which(cov_rare_size$Assemblage %in% intervals$interval_name_abb[1:8]), "Period"] <- "Silurian"
 cov_rare_size[which(cov_rare_size$Assemblage %in% intervals$interval_name_abb[9:15]), "Period"] <- "Devonian"
@@ -183,6 +184,7 @@ cov_rare_size[which(cov_rare_size$Assemblage %in% intervals$interval_name_abb[16
 cov_rare_size[which(cov_rare_size$Assemblage %in% intervals$interval_name_abb[23:31]), "Period"] <- "Permian"
 
 cov_rare_cov <- cov_rare$coverage_based %>% as_tibble() #convert to tibble for ease of plotting
+
 #Add a geological period column to make plotting easier!
 cov_rare_cov[which(cov_rare_cov$Assemblage %in% intervals$interval_name_abb[1:8]), "Period"] <- "Silurian"
 cov_rare_cov[which(cov_rare_cov$Assemblage %in% intervals$interval_name_abb[9:15]), "Period"] <- "Devonian"
@@ -190,7 +192,7 @@ cov_rare_cov[which(cov_rare_cov$Assemblage %in% intervals$interval_name_abb[16:2
 cov_rare_cov[which(cov_rare_cov$Assemblage %in% intervals$interval_name_abb[23:31]), "Period"] <- "Permian"
 
 
-## Plot data. We will divide data into two separate plots to make visualisation easier:
+## Plot data. We will divide the data into two separate plots to make visualization easier:
 ## One for Silurian-Devonian, one for Carboniferous-Permian
 
 colour_scheme <- c("#F04028","#F04028","#67A599","#F04028", "#F04028","#67A599","#67A599","#F04028",
@@ -257,8 +259,6 @@ cov_rare_plot2 <- cov_rare_plot2 +geom_dl(data=cov_rare2, aes(label=Assemblage),
 #############
 #########################Plot standard rarefaction curves###############
 #############
-
-###Use cov_rare_size part of inc.data and t as x values????????
 cov_rare3 <-subset(cov_rare_size, Period=="Carboniferous" | Period=="Permian")
 
 cov_rare_plot3 <- ggplot(data = cov_rare3, aes(x = t, y = qD, fill = Assemblage, colour = Period, lty = Method)) + 
@@ -310,3 +310,5 @@ cov_rare_plot4
 cov_rare_plot4 <- cov_rare_plot4 +geom_dl(data=cov_rare4, aes(label=Assemblage),method=list("last.points",rot=30))
 
 all<- ggarrange(cov_rare_plot1,cov_rare_plot3,cov_rare_plot2, cov_rare_plot4, nrow=2, ncol=2, labels = c('A', 'C','B','D','E'))
+
+######################################################End_of_script###################################################
